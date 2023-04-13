@@ -3,20 +3,24 @@ from PyQt5.QtWidgets import QGroupBox, QVBoxLayout, QPushButton, QScrollArea, QW
 
 from strip import Strip
 from stripmenu import StripMenu
+import utils
+import config
 from random import randint
 
 class Section(QGroupBox):
-    def __init__(self, name, isInbox):
+    def __init__(self, name, isInbox, mainWidget):
         super().__init__(name)
         self.strips = []
         self.name = name
         self.isInbox = isInbox
+        self.mainWidget = mainWidget
 
         self.initUI()
 
     def initUI(self):
         self.setAcceptDrops(True)
         layout = QVBoxLayout()
+        layout.setContentsMargins(0, 0, 0, 0)
         self.setLayout(layout)
 
         if self.isInbox:
@@ -24,7 +28,6 @@ class Section(QGroupBox):
             self.addButton.clicked.connect(self.addStrip)
 
             layout.addWidget(self.addButton)
-
 
         scroll = QScrollArea(self)
         layout.addWidget(scroll)
@@ -37,8 +40,22 @@ class Section(QGroupBox):
         scroll.setWidget(scrollContent)
 
     def addStrip(self):
-        strip = Strip(self, "BAW123", "VFR", "".join([str(randint(0, 8)) for _ in range(4)]))
-        stripmenu = StripMenu(strip)
+        strip = Strip(self,
+                      config.defaults["callsign"],
+                      config.defaults["flight rules"],
+                      config.defaults["service"],
+                      config.defaults["m1"],
+                      utils.generate_squawk(config.defaults["service"], config.defaults["flight rules"], self.mainWidget),
+                      config.defaults["category"],
+                      config.defaults["type"],
+                      config.defaults["fields"],
+                      config.defaults["fields"],
+                      config.defaults["hdg"],
+                      config.defaults["alt"],
+                      config.defaults["spd"]
+                      )
+
+        stripmenu = StripMenu(strip, self)
         stripmenu.exec()
         self.strips.append(strip)
         self.scrollLayout.addWidget(strip)
