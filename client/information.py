@@ -36,9 +36,9 @@ class Data(QFrame):
         self.layout.addWidget(self.label1)
         self.layout.addWidget(self.label2)
 
-    def render(self, m1, m3, acft, wk, apc):
+    def render(self, m1: str, m3: str, acft: str, num: int, wk: str, apc: str):
         self.label1.setText(f"({m1}) {m3}")
-        self.label2.setText(f"{wk}|{acft}|{apc}")
+        self.label2.setText(f"{wk}|{num}x {acft}|{apc}")
 
     def sizeHint(self):
         return QSize(100, 50)

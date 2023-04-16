@@ -4,13 +4,13 @@ from PySide2.QtWidgets import QGroupBox, QVBoxLayout, QPushButton, QScrollArea, 
 from strip import Strip
 from stripmenu import StripMenu
 import utils
-import config
 from random import randint
 
 class Section(QGroupBox):
     signal = Signal(dict)
     def __init__(self, name: str, isInbox: bool, mainWidget) -> None:
         super().__init__(name)
+        self.config = mainWidget.config
         self.strips = []
         self.signal.connect(self.receiveStrip)
         self.name = name
@@ -41,10 +41,10 @@ class Section(QGroupBox):
         scrollContent.setLayout(self.scrollLayout)
         scroll.setWidget(scrollContent)
 
-    def receiveStrip(self, data):
-        rule = data["flight_rules"] if data["flight_rules"] in list(config.flight_rules.keys()) else config.defaults["flight rules"]
-        service = data["service"] if data["service"] in list(config.services.keys()) else config.defaults["service"]
-        category = data["category"] if data["category"] in list(config.categories.keys()) else config.defaults["category"]
+    def receiveStrip(self, data: dict) -> None:
+        rule = data["flight_rules"] if data["flight_rules"] in list(self.config["flight_rules"].keys()) else self.config["defaults"]["flight rules"]
+        service = data["service"] if data["service"] in list(self.config["services"].keys()) else self.config["defaults"]["service"]
+        category = data["category"] if data["category"] in list(self.config["categories"].keys()) else self.config["defaults"]["category"]
 
         strip = Strip(self,
                       data["callsign"],
@@ -66,18 +66,19 @@ class Section(QGroupBox):
 
     def addStrip(self) -> None:
         strip = Strip(self,
-                      config.defaults["callsign"],
-                      config.defaults["flight rules"],
-                      config.defaults["service"],
-                      config.defaults["m1"],
-                      utils.generate_squawk(config.defaults["service"], config.defaults["flight rules"], self.mainWidget),
-                      config.defaults["category"],
-                      config.defaults["type"],
-                      config.defaults["fields"],
-                      config.defaults["fields"],
-                      config.defaults["hdg"],
-                      config.defaults["alt"],
-                      config.defaults["spd"]
+                      self.config["strip_defaults"]["callsign"],
+                      self.config["strip_defaults"]["flight_rules"],
+                      self.config["strip_defaults"]["service"],
+                      self.config["strip_defaults"]["m1"],
+                      utils.generate_squawk(self.config["strip_defaults"]["service"], self.config["strip_defaults"]["flight_rules"], self.mainWidget),
+                      self.config["strip_defaults"]["category"],
+                      self.config["strip_defaults"]["type"],
+                      self.config["strip_defaults"]["flight_size"],
+                      self.config["strip_defaults"]["departure_field"],
+                      self.config["strip_defaults"]["arrival_field"],
+                      self.config["strip_defaults"]["hdg"],
+                      self.config["strip_defaults"]["alt"],
+                      self.config["strip_defaults"]["spd"]
                       )
 
         stripmenu = StripMenu(strip, self)

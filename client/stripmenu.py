@@ -61,6 +61,10 @@ class StripMenu(QDialog):
         self.type_box.setText(self.strip.type)
         self.data1.addRow("Type:", self.type_box)
 
+        self.num_box = QLineEdit()
+        self.num_box.setText(str(self.strip.size))
+        self.data2.addRow("Size:", self.num_box)
+
         self.flight1.addRow(" ", QWidget())
         self.flight2.addRow(" ", QWidget())
 
@@ -100,6 +104,13 @@ class StripMenu(QDialog):
         if not self.dep_box.text().strip() in list(self.aerodromes.keys()):
             print("Invalid departure")
             self.dialog("Invalid Departure")
+            return
+
+        try:
+            self.strip.size = int(self.num_box.text().strip())
+        except:
+            print("Invalid flight size")
+            self.dialog("Invalid flight size")
             return
 
         self.strip.callsign = self.cs_box.text()

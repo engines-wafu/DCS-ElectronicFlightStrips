@@ -5,7 +5,6 @@ import json
 
 from information import *
 from stripmenu import StripMenu
-import config
 import utils
 
 class Strip(QFrame):
@@ -18,6 +17,7 @@ class Strip(QFrame):
                  m3: str,
                  category: str,
                  type: str,
+                 size: int,
                  dep: str,
                  arr: str,
                  hdg: str, alt: str, spd: str) -> None:
@@ -29,16 +29,18 @@ class Strip(QFrame):
         self.m3 = m3
         self.service = service
         self.type = type
+        self.size = size
         self.dep = dep
         self.arr = arr
         self.hdg = hdg
         self.alt = alt
         self.spd = spd
         self.category = category
+        self.config = self.section.config
 
         data = utils.load_data()
         
-        if config.recat:
+        if self.config["use_recat"]:
             self.wk = data[self.type]["RECAT"]
         else:
             self.wk = data[self.type]["WTC"]
@@ -73,16 +75,19 @@ class Strip(QFrame):
         self.render()
 
     def render(self) -> None:
-        if config.useEmer:
-            if self.m3 in config.emer_squawks:
-                self.setStyleSheet(f"background: {config.emer_color}")
+        if self.config["use_emer"]:
+            if self.m3 in self.config["emer_squawks"]:
+                c = self.config["emer_color"]
+                self.setStyleSheet(f"background: {c}")
             else:
-                self.setStyleSheet(f"background: {config.categories[self.category]}")
+                c = self.config["categories"][self.category]
+                self.setStyleSheet(f"background: {c}")
         else:
-            self.setStyleSheet(f"background: {config.categories[self.category]}")
+            c = self.config["categories"][self.category]
+            self.setStyleSheet(f"background: {c}")
 
         self.cs_label.render(self.callsign)
-        self.dataLabel.render(self.m1, self.m3, self.type, self.wk, self.apc)
+        self.dataLabel.render(self.m1, self.m3, self.type, self.size, self.wk, self.apc)
         self.ruleLabel.render(self.flight_rules)
         self.serviceLabel.render(self.service)
         self.navLabel.render(self.dep, self.arr, self.hdg, self.alt, self.spd)
