@@ -22,7 +22,20 @@ async def main():
                 "type": "SEND",
                 "recipient": "TWR",
                 "sender": sys.argv[1],
-                "strip": {"callsign": "Toxin 1-1"}
+                "strip": {
+                    "callsign": "Toxin 1-1",
+                    "flight_rules": "VFR",
+                    "service": "N",
+                    "m1": "11",
+                    "m3": "2000",
+                    "category": "Departing",
+                    "type": "F18",
+                    "dep": "PGUA",
+                    "arr": "PGUA",
+                    "hdg": "HXXX",
+                    "alt": "A050",
+                    "spd": "SXXX"
+                    }
                 }
 
         sock.send(json.dumps(send))

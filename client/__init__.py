@@ -1,15 +1,32 @@
-from PyQt5 import QtWidgets
-from PyQt5.QtWidgets import QApplication, QMainWindow, QGridLayout, QWidget, QMenuBar, QAction
+from PySide2 import QtWidgets
+from PySide2.QtWidgets import QApplication, QMainWindow, QGridLayout, QWidget, QMenuBar, QAction
+from PySide2.QtCore import QThread
 import sys
+import asyncio
+import threading
 
 import config
 from section import Section
+from ws import WSManager
+
+class WSMThread(QThread):
+    def __init__(self, wsm, parent=None):
+        super().__init__(parent)
+        self.wsm = wsm
+
+    def run(self):
+        self.wsm.connect("localhost", 6002, sys.argv[1])
 
 class MainWidget(QWidget):
     def __init__(self):
         super().__init__()
         self.sections = [[] for _ in range(len(config.sections))]
+        self.connected_callsigns = []
+        self.callsign = sys.argv[1]
         self.initUI()
+        self.wsm = WSManager(self)
+        self.wsm_thread = WSMThread(self.wsm, self)
+        self.wsm_thread.start()
 
     def initUI(self):
         self.layout = QGridLayout()
@@ -19,6 +36,7 @@ class MainWidget(QWidget):
         for i, row in enumerate(config.sections):
             for j, name in enumerate(row):
                 self.sections[i].append(Section(name, name==config.inbox, self))
+                if name==config.inbox: self.inbox = self.sections[i][j]
                 if name != "":
                     if i == 0:
                         self.layout.addWidget(self.sections[i][j], i, j, config.column_spans[j], 1)
@@ -42,6 +60,10 @@ class Window(QMainWindow):
         addact = QAction("&Add", self)
         addact.triggered.connect(self.addToInbox)
         self.menubar.addAction(addact)
+
+    def closeEvent(self, e):
+        print("exiting")
+        e.accept()
 
     def addToInbox(self):
         for r in self.mainWidget.sections:
