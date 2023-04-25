@@ -133,9 +133,6 @@ class StripMenu(QDialog):
         self.strip.render()
         self.accept()
 
-    def reject(self) -> None:
-        self.accept()
-
     def dialog(self, msg: str) -> None:
         dlg = QMessageBox(self)
         dlg.setText(msg)

@@ -82,10 +82,11 @@ class Section(QGroupBox):
                       )
 
         stripmenu = StripMenu(strip, self)
-        stripmenu.exec()
+        res = stripmenu.exec()
 
-        self.strips.append(strip)
-        self.scrollLayout.addWidget(strip)
+        if res:
+            self.strips.append(strip)
+            self.scrollLayout.addWidget(strip)
 
     def removeStrip(self, strip: Strip, delete: bool=False):
         self.strips.remove(strip)

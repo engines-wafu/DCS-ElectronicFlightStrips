@@ -15,9 +15,12 @@ class WSMThread(QThread):
         self.wsm = wsm
 
     def run(self):
-        try:
-            self.wsm.connect("localhost", 6002, sys.argv[1])
-        except:
+        if len(sys.argv) == 2:
+            try:
+                self.wsm.connect("localhost", 6002, sys.argv[1])
+            except:
+                return
+        else:
             return
 
 class MainWidget(QWidget):
@@ -26,7 +29,10 @@ class MainWidget(QWidget):
         self.config = utils.load_config(profile)
         self.sections = [[] for _ in range(len(self.config["sections"]))]
         self.connected_callsigns = []
-        self.callsign = sys.argv[1]
+        if len(sys.argv) == 2:
+            self.callsign = sys.argv[1]
+        else:
+            self.callsign = ""
         self.initUI()
         self.wsm = WSManager(self)
         self.wsm_thread = WSMThread(self.wsm, self)
