@@ -5,7 +5,7 @@ Version: 1.0.0
 
 ## Installation
 
-1. Install python https://www.python.org/
+1. Install Latest version of python 3.10 https://www.python.org/downloads/release/python-31011/
 2. Download source code (either clone the repository or download as zip and extract)
 3. Install necessary modules:
     ```pip install -r requirements.txt```
@@ -16,6 +16,7 @@ In `client/` run `python __init__.py`
 
 ## Roadmap
 
+- Port to PySide6 (based on Qt6) - includes porting to python 3.11
 - Finish server integration
 - add GUI settings menu
 - add default settings
