@@ -1,3 +1,6 @@
+# DCS-ElectronicFlightStrips
+Version: 1.0.0
+
 # Client
 
 ## Installation
@@ -10,3 +13,26 @@
 ## Usage
 
 In `client/` run `python __init__.py`
+
+## Roadmap
+
+- Finish server integration
+- add GUI settings menu
+- add default settings
+- add resizable columns
+
+# Server
+
+Still Under Development - currently local machine only
+
+## Installation
+
+Same as client
+
+## Usage
+
+In `server/` run `python __init__.py`
+
+## Roadmap
+
+- Add ability to use outside local machine

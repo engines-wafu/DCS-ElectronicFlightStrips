@@ -1,11 +1,11 @@
-from PyQt5 import QtWidgets
-from PyQt5.QtWidgets import QDialog, QFormLayout, QGridLayout, QPushButton, QDialogButtonBox, QLabel, QLineEdit, QComboBox, QSpacerItem, QSizePolicy, QWidget, QMessageBox, QHBoxLayout
+from PySide2 import QtWidgets
+from PySide2.QtWidgets import QDialog, QFormLayout, QGridLayout, QPushButton, QDialogButtonBox, QLabel, QLineEdit, QComboBox, QSpacerItem, QSizePolicy, QWidget, QMessageBox, QHBoxLayout
 
 import config
 import utils
 
 class StripMenu(QDialog):
-    def __init__(self, strip, section):
+    def __init__(self, strip, section) -> None:
         super().__init__()
         self.setWindowTitle("Strip Options")
         self.strip = strip
@@ -16,7 +16,7 @@ class StripMenu(QDialog):
 
         self.initUI()
 
-    def initUI(self):
+    def initUI(self) -> None:
         self.btns = QDialogButtonBox(QDialogButtonBox.Ok | QDialogButtonBox.Cancel)
         self.btns.accepted.connect(self.submit)
         self.btns.rejected.connect(self.reject)
@@ -61,6 +61,10 @@ class StripMenu(QDialog):
         self.type_box.setText(self.strip.type)
         self.data1.addRow("Type:", self.type_box)
 
+        self.num_box = QLineEdit()
+        self.num_box.setText(str(self.strip.size))
+        self.data2.addRow("Size:", self.num_box)
+
         self.flight1.addRow(" ", QWidget())
         self.flight2.addRow(" ", QWidget())
 
@@ -80,7 +84,7 @@ class StripMenu(QDialog):
 
         self.layout.addWidget(self.btns, 2, 1)
 
-    def submit(self):
+    def submit(self) -> None:
         if not utils.validate_squawk(self.m3_box.text().strip()):
             print("Invalid squawk")
             self.dialog("Invalid M3 Squawk")
@@ -100,6 +104,13 @@ class StripMenu(QDialog):
         if not self.dep_box.text().strip() in list(self.aerodromes.keys()):
             print("Invalid departure")
             self.dialog("Invalid Departure")
+            return
+
+        try:
+            self.strip.size = int(self.num_box.text().strip())
+        except:
+            print("Invalid flight size")
+            self.dialog("Invalid flight size")
             return
 
         self.strip.callsign = self.cs_box.text()
@@ -122,10 +133,7 @@ class StripMenu(QDialog):
         self.strip.render()
         self.accept()
 
-    def reject(self):
-        self.accept()
-
-    def dialog(self, msg):
+    def dialog(self, msg: str) -> None:
         dlg = QMessageBox(self)
         dlg.setText(msg)
         dlg.setWindowTitle(msg)
@@ -134,7 +142,7 @@ class StripMenu(QDialog):
 
 
 class M3Box(QWidget):
-    def __init__(self, menu):
+    def __init__(self, menu: StripMenu) -> None:
         super().__init__()
         self.menu = menu
         self.layout = QHBoxLayout()
@@ -148,12 +156,12 @@ class M3Box(QWidget):
         self.layout.addWidget(self.gen)
         self.setLayout(self.layout)
 
-    def text(self):
+    def text(self) -> str:
         return self.box.text()
 
-    def setText(self, txt):
+    def setText(self, txt: str) -> None:
         self.box.setText(txt)
 
-    def genClicked(self):
+    def genClicked(self) -> None:
         m = utils.generate_squawk(self.menu.service_box.currentText(), self.menu.rules_box.currentText(), self.menu.section.mainWidget)
         self.box.setText(m)

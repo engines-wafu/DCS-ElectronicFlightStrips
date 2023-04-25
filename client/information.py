@@ -1,6 +1,6 @@
-from PyQt5.QtWidgets import QLabel, QSizePolicy, QPlainTextEdit, QFrame, QComboBox, QVBoxLayout, QHBoxLayout
-from PyQt5.QtCore import Qt, QSize
-from PyQt5.QtGui import QPainter
+from PySide2.QtWidgets import QLabel, QSizePolicy, QPlainTextEdit, QFrame, QComboBox, QVBoxLayout, QHBoxLayout
+from PySide2.QtCore import Qt, QSize
+from PySide2.QtGui import QPainter
 
 class CsLabel(QLabel):
     def __init__(self, surf):
@@ -36,9 +36,9 @@ class Data(QFrame):
         self.layout.addWidget(self.label1)
         self.layout.addWidget(self.label2)
 
-    def render(self, m1, m3, acft, wk, apc):
+    def render(self, m1: str, m3: str, acft: str, num: int, wk: str, apc: str):
         self.label1.setText(f"({m1}) {m3}")
-        self.label2.setText(f"{wk}|{acft}|{apc}")
+        self.label2.setText(f"{wk}|{num}x {acft}|{apc}")
 
     def sizeHint(self):
         return QSize(100, 50)
@@ -70,8 +70,9 @@ class Service(QLabel):
         return QSize(40, 50)
 
 class Nav(QFrame):
-    def __init__(self, surf):
-        super().__init__(surf)
+    def __init__(self, strip):
+        super().__init__(strip)
+        self.strip = strip
 
         self.layout = QVBoxLayout()
         self.layout.setSpacing(0)
@@ -110,6 +111,10 @@ class Nav(QFrame):
         self.spd_box.addItem("SXXX")
         self.spd_box.addItems([f"S{i:03}" for i in range(0, 310, 10)])
 
+        self.hdg_box.activated.connect(self.onBoxChanged)
+        self.alt_box.activated.connect(self.onBoxChanged)
+        self.spd_box.activated.connect(self.onBoxChanged)
+
         self.layout.insertStretch(-1, 1)
 
     def render(self, dep, arr, hdg, alt, spd):
@@ -120,9 +125,17 @@ class Nav(QFrame):
         self.spd = spd
         
         self.label.setText(f"{self.dep} | {self.arr}")
+        self.hdg_box.setCurrentText(self.hdg)
+        self.alt_box.setCurrentText(self.alt)
+        self.spd_box.setCurrentText(self.spd)
 
     def sizeHint(self):
         return QSize(130, 50)
+
+    def onBoxChanged(self, v):
+        self.strip.hdg = self.hdg_box.currentText()
+        self.strip.alt = self.alt_box.currentText()
+        self.strip.spd = self.spd_box.currentText()
 
 class Comment(QPlainTextEdit):
     def __init__(self, surf):
