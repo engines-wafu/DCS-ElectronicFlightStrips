@@ -5,7 +5,6 @@ import json
 import sys
 
 from strip import Strip
-import config
 
 class WSManager:
     def __init__(self, mainWidget):
@@ -49,19 +48,14 @@ class WSManager:
         if data["type"] == "DISCONNECT":
             self.mainWidget.connected_callsigns.remove(data["callsign"])
 
-        if data["type"] == "SEND":
+        if data["type"] == "SEND" or data["type"] == "DUPLICATE":
             self.mainWidget.inbox.signal.emit(data["strip"]) 
+
+        if data["type"] == "UPDATE":
+            self.mainWidget.signal.emit(data["strip"])
 
         print(self.mainWidget.connected_callsigns)
 
     def send(self, message):
         self.ws.send(message)
         print(f"Sent: {message}")
-
-if __name__ == "__main__":
-    wsm = WSManager(None)
-    wsm.connect("localhost", 6002, "GND")
-    message = {"type": "PING"}
-    wsm.send(json.dumps(message))
-    wsm.listen()
-    wsm.send(json.dumps({"type": "PING"}))

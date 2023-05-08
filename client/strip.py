@@ -1,6 +1,6 @@
-from PySide2.QtWidgets import QWidget, QFrame, QHBoxLayout, QVBoxLayout, QLabel, QSizePolicy, QPlainTextEdit, QMenu
-from PySide2.QtCore import Qt, QSize, QMimeData, QEvent
-from PySide2.QtGui import QDrag
+from PySide6.QtWidgets import QWidget, QFrame, QHBoxLayout, QVBoxLayout, QLabel, QSizePolicy, QPlainTextEdit, QMenu
+from PySide6.QtCore import Qt, QSize, QMimeData, QEvent
+from PySide6.QtGui import QDrag
 import json
 
 from information import *
@@ -20,7 +20,8 @@ class Strip(QFrame):
                  size: int,
                  dep: str,
                  arr: str,
-                 hdg: str, alt: str, spd: str) -> None:
+                 hdg: str, alt: str, spd: str,
+                 flightplan: dict) -> None:
         super().__init__()
         self.section = section
         self.callsign = callsign
@@ -29,13 +30,14 @@ class Strip(QFrame):
         self.m3 = m3
         self.service = service
         self.type = type
-        self.size = size
+        self.flight = size
         self.dep = dep
         self.arr = arr
         self.hdg = hdg
         self.alt = alt
         self.spd = spd
         self.category = category
+        self.flightplan = flightplan
         self.config = self.section.config
 
         data = utils.load_data()
@@ -87,7 +89,7 @@ class Strip(QFrame):
             self.setStyleSheet(f"background: {c}")
 
         self.cs_label.render(self.callsign)
-        self.dataLabel.render(self.m1, self.m3, self.type, self.size, self.wk, self.apc)
+        self.dataLabel.render(self.m1, self.m3, self.type, self.flight, self.wk, self.apc)
         self.ruleLabel.render(self.flight_rules)
         self.serviceLabel.render(self.service)
         self.navLabel.render(self.dep, self.arr, self.hdg, self.alt, self.spd)
@@ -131,7 +133,7 @@ class Strip(QFrame):
 
     def send(self, recipient, delete=True):
         data = {
-                "type": "SEND",
+                "type": "SEND" if delete else "DUPLICATE",
                 "recipient": recipient,
                 "sender": self.section.mainWidget.callsign,
                 "strip": {
@@ -142,11 +144,13 @@ class Strip(QFrame):
                     "m3": self.m3,
                     "category": self.category,
                     "type": self.type,
+                    "flight": self.flight,
                     "dep": self.dep,
                     "arr": self.arr,
                     "hdg": self.hdg,
                     "alt": self.alt,
-                    "spd": self.spd
+                    "spd": self.spd,
+                    "flight_plan": self.flightplan
                     }
                 }
         if self.section.mainWidget.wsm.ws:
