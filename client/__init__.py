@@ -17,8 +17,9 @@ class WSMThread(QThread):
     def run(self):
         if len(sys.argv) == 2:
             try:
-                self.wsm.connect("localhost", 6002, sys.argv[1])
+                self.wsm.connect("10.203.254.157", 6002, sys.argv[1])
             except:
+                print("could not connect to server")
                 return
         else:
             return
