@@ -31,6 +31,8 @@ def generate_squawk(service: str, rule: str, mainWidget) -> str:
     for squawk in range(min, max+1):
         if not f"{int(str(oct(squawk))[2:]):04}" in used_squawks:
             return f"{int(str(oct(squawk))[2:]):04}"
+        
+    return ""
 
 def load_data() -> dict:
     with open("data.json", "r") as f:
@@ -44,7 +46,7 @@ def load_aerodromes() -> dict:
 
     return data
 
-def load_config(p: str=None) -> dict:
+def load_config(p: str="") -> dict:
     with open("config.json", "r") as f:
         data = json.loads(f.read())
     

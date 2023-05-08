@@ -1,5 +1,5 @@
-from PySide2.QtCore import Qt, QEvent, Signal, QObject
-from PySide2.QtWidgets import QGroupBox, QVBoxLayout, QPushButton, QScrollArea, QWidget
+from PySide6.QtCore import Qt, QEvent, Signal, QObject
+from PySide6.QtWidgets import QGroupBox, QVBoxLayout, QPushButton, QScrollArea, QWidget
 
 from strip import Strip
 from stripmenu import StripMenu
@@ -54,11 +54,13 @@ class Section(QGroupBox):
                       data["m3"],
                       category,
                       data["type"],
+                      data["flight"],
                       data["dep"],
                       data["arr"],
                       data["hdg"],
                       data["alt"],
-                      data["spd"]
+                      data["spd"],
+                      data["flight_plan"]
                       )
 
         self.strips.append(strip)
@@ -78,9 +80,9 @@ class Section(QGroupBox):
                       self.config["strip_defaults"]["arrival_field"],
                       self.config["strip_defaults"]["hdg"],
                       self.config["strip_defaults"]["alt"],
-                      self.config["strip_defaults"]["spd"]
+                      self.config["strip_defaults"]["spd"],
+                      self.config["strip_defaults"]["flight_plan"]
                       )
-
         stripmenu = StripMenu(strip, self)
         res = stripmenu.exec()
 

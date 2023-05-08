@@ -1,7 +1,6 @@
-from PySide2 import QtWidgets
-from PySide2.QtWidgets import QDialog, QFormLayout, QGridLayout, QPushButton, QDialogButtonBox, QLabel, QLineEdit, QComboBox, QSpacerItem, QSizePolicy, QWidget, QMessageBox, QHBoxLayout
+from PySide6 import QtWidgets
+from PySide6.QtWidgets import QDialog, QFormLayout, QGridLayout, QPushButton, QDialogButtonBox, QLabel, QLineEdit, QComboBox, QSpacerItem, QSizePolicy, QWidget, QMessageBox, QHBoxLayout
 
-import config
 import utils
 
 class StripMenu(QDialog):
@@ -43,17 +42,17 @@ class StripMenu(QDialog):
         self.data2.addRow("Mode 1:", self.m1_box)
 
         self.cat_box = QComboBox()
-        self.cat_box.addItems(list(config.categories.keys()))
+        self.cat_box.addItems(list(self.section.config["categories"].keys()))
         self.cat_box.setCurrentText(self.strip.category)
         self.data1.addRow("Category:", self.cat_box)
 
         self.rules_box = QComboBox()
-        self.rules_box.addItems(list(config.flight_rules))
+        self.rules_box.addItems(list(self.section.config["flight_rules"]))
         self.rules_box.setCurrentText(self.strip.flight_rules)
         self.data1.addRow("Flight Rules:", self.rules_box)
        
         self.service_box = QComboBox()
-        self.service_box.addItems(list(config.services))
+        self.service_box.addItems(list(self.section.config["services"]))
         self.service_box.setCurrentText(self.strip.service)
         self.data2.addRow("Service:", self.service_box)
 
@@ -62,7 +61,7 @@ class StripMenu(QDialog):
         self.data1.addRow("Type:", self.type_box)
 
         self.num_box = QLineEdit()
-        self.num_box.setText(str(self.strip.size))
+        self.num_box.setText(str(self.strip.flight))
         self.data2.addRow("Size:", self.num_box)
 
         self.flight1.addRow(" ", QWidget())
@@ -120,7 +119,7 @@ class StripMenu(QDialog):
         self.strip.service = self.service_box.currentText()
         self.strip.type = self.type_box.text().strip()
 
-        if config.recat:
+        if self.section.config["use_recat"]:
             self.strip.wk = self.data[self.strip.type]["RECAT"]
         else:
             self.strip.wk = self.data[self.strip.type]["WTC"]

@@ -2,10 +2,22 @@
     {
         "profile_name": "DCAF_APP",
         "sections": [
-            ["Inbox", "06R", "06L"],
-            ["", "Push", "Departed"]
+            [
+                "Inbox",
+                "06R",
+                "06L"
+            ],
+            [
+                "",
+                "Push",
+                "Departed"
+            ]
         ],
-        "column_spans": [10, 4, 5],
+        "column_spans": [
+            10,
+            4,
+            5
+        ],
         "inbox": "Inbox",
         "categories": {
             "Arriving": "#ffc069",
@@ -17,11 +29,26 @@
             "IFR": "0000"
         },
         "services": {
-            "N": ["0000", "0000"],
-            "BS": ["0050", "0053"],
-            "TS": ["0054", "0057"],
-            "DS": ["0060", "0063"],
-            "RS": ["0064", "0067"]
+            "N": [
+                "0000",
+                "0000"
+            ],
+            "BS": [
+                "0050",
+                "0053"
+            ],
+            "TS": [
+                "0054",
+                "0057"
+            ],
+            "DS": [
+                "0060",
+                "0063"
+            ],
+            "RS": [
+                "0064",
+                "0067"
+            ]
         },
         "conspicuity_service": "N",
         "strip_defaults": {
@@ -36,20 +63,41 @@
             "m1": "00",
             "hdg": "HXXX",
             "alt": "AXXX",
-            "spd": "SXXX"
+            "spd": "SXXX",
+            "flight_plan": {
+                "route": "",
+                "equipment": "",
+                "altitude": ""
+            }
         },
         "use_emer": true,
-        "emer_squawks": ["7500", "7600", "7700"],
+        "emer_squawks": [
+            "7500",
+            "7600",
+            "7700"
+        ],
         "emer_color": "#f08080",
         "use_recat": false
     },
     {
         "profile_name": "DCAF_TWR",
         "sections": [
-            ["Inbox", "06R", "06L"],
-            ["", "Push", "Departed"]
+            [
+                "Inbox",
+                "06R",
+                "06L"
+            ],
+            [
+                "",
+                "Push",
+                "Departed"
+            ]
         ],
-        "column_spans": [10, 4, 5],
+        "column_spans": [
+            10,
+            4,
+            5
+        ],
         "inbox": "Inbox",
         "categories": {
             "Arriving": "#ffc069",
@@ -61,11 +109,26 @@
             "IFR": "0000"
         },
         "services": {
-            "N": ["0000", "0000"],
-            "BS": ["0050", "0053"],
-            "TS": ["0054", "0057"],
-            "DS": ["0060", "0063"],
-            "RS": ["0064", "0067"]
+            "N": [
+                "0000",
+                "0000"
+            ],
+            "BS": [
+                "0050",
+                "0053"
+            ],
+            "TS": [
+                "0054",
+                "0057"
+            ],
+            "DS": [
+                "0060",
+                "0063"
+            ],
+            "RS": [
+                "0064",
+                "0067"
+            ]
         },
         "conspicuity_service": "N",
         "strip_defaults": {
@@ -80,10 +143,19 @@
             "m1": "00",
             "hdg": "HXXX",
             "alt": "AXXX",
-            "spd": "SXXX"
+            "spd": "SXXX",
+            "flight_plan": {
+                "route": "",
+                "equipment": "",
+                "altitude": ""
+            }
         },
         "use_emer": true,
-        "emer_squawks": ["7500", "7600", "7700"],
+        "emer_squawks": [
+            "7500",
+            "7600",
+            "7700"
+        ],
         "emer_color": "#f08080",
         "use_recat": false
     }

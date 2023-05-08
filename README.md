@@ -1,5 +1,5 @@
 # DCS-ElectronicFlightStrips
-Version: 1.0.0
+Version: 1.1.0
 
 # Client
 
@@ -21,6 +21,10 @@ In `client/` run `python __init__.py`
 - add GUI settings menu
 - add default settings
 - add resizable columns
+
+## Changelog
+
+- ported to Python version 3.11 and PySide6
 
 # Server
 

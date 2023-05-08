@@ -1,6 +1,6 @@
-from PySide2.QtWidgets import QLabel, QSizePolicy, QPlainTextEdit, QFrame, QComboBox, QVBoxLayout, QHBoxLayout
-from PySide2.QtCore import Qt, QSize
-from PySide2.QtGui import QPainter
+from PySide6.QtWidgets import QLabel, QSizePolicy, QPlainTextEdit, QFrame, QComboBox, QVBoxLayout, QHBoxLayout
+from PySide6.QtCore import Qt, QSize
+from PySide6.QtGui import QPainter
 
 class CsLabel(QLabel):
     def __init__(self, surf):
