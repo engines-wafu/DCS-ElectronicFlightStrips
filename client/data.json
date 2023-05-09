@@ -1,1 +1,2348 @@
-{"A10": {"APC": "C", "WTC": "M", "RECAT": "LM", "Name": "A10 Thunderbolt 2"}, "A109": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "AW109 Power"}, "A124": {"APC": "C", "WTC": "H", "RECAT": "SH", "Name": "An124 Ruslan"}, "A129": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "Mangusta"}, "A19N": {"APC": "C", "WTC": "M", "RECAT": "UM", "Name": "A319neo"}, "A20N": {"APC": "C", "WTC": "M", "RECAT": "UM", "Name": "A320neo"}, "A21N": {"APC": "C", "WTC": "M", "RECAT": "UM", "Name": "A321neo"}, "A225": {"APC": "C", "WTC": "J", "RECAT": "S", "Name": "An225 Mriya"}, "A306": {"APC": "C", "WTC": "H", "RECAT": "LH", "Name": "A-300-600"}, "A30B": {"APC": "C", "WTC": "H", "RECAT": "LH", "Name": "A300"}, "A310": {"APC": "C", "WTC": "H", "RECAT": "LH", "Name": "A-310"}, "A318": {"APC": "C", "WTC": "M", "RECAT": "UM", "Name": "A318"}, "A319": {"APC": "C", "WTC": "M", "RECAT": "UM", "Name": "A319"}, "A320": {"APC": "C", "WTC": "M", "RECAT": "UM", "Name": "A320"}, "A321": {"APC": "C", "WTC": "M", "RECAT": "UM", "Name": "A321"}, "A332": {"APC": "C", "WTC": "H", "RECAT": "UH", "Name": "A330-200"}, "A333": {"APC": "C", "WTC": "H", "RECAT": "UH", "Name": "A330-300"}, "A338": {"APC": "C", "WTC": "H", "RECAT": "UH", "Name": "A330-800"}, "A339": {"APC": "D", "WTC": "H", "RECAT": "UH", "Name": "A330-900"}, "A342": {"APC": "D", "WTC": "H", "RECAT": "UH", "Name": "A340-200"}, "A343": {"APC": "D", "WTC": "H", "RECAT": "UH", "Name": "A340-300"}, "A345": {"APC": "D", "WTC": "H", "RECAT": "UH", "Name": "A340-500"}, "A346": {"APC": "D", "WTC": "H", "RECAT": "UH", "Name": "A340-600"}, "A359": {"APC": "C", "WTC": "H", "RECAT": "UH", "Name": "A350-900 XWB"}, "A35K": {"APC": "D", "WTC": "H", "RECAT": "UH", "Name": "A350-1000 XWB"}, "A388": {"APC": "C", "WTC": "J", "RECAT": "SH", "Name": "A-380-800"}, "A3ST": {"APC": "C", "WTC": "H", "RECAT": "LH", "Name": "A300ST Beluga"}, "A4": {"APC": "C", "WTC": "M", "RECAT": "L", "Name": "Skyhawk"}, "A400": {"APC": "C", "WTC": "H", "RECAT": "LH", "Name": "A-400M Atlas"}, "A6": {"APC": "B", "WTC": "M", "RECAT": "LM", "Name": "A6 Intruder,Prowler"}, "A748": {"APC": "B", "WTC": "M", "RECAT": "LM", "Name": "748"}, "AC11": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "112 Commander 112"}, "AC50": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "500 Commander 500"}, "AC56": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "560 Commander 560"}, "AC68": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "680F Commander 680F"}, "AC6L": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "680FL Grand Commander"}, "AC95": {"APC": "B", "WTC": "L", "RECAT": "L", "Name": "695 Jetprop Commander 980/1000"}, "AEST": {"APC": "B", "WTC": "L", "RECAT": "L", "Name": "600,601 (AEROSTAR)"}, "AJET": {"APC": "B", "WTC": "M", "RECAT": "L", "Name": "Alpha Jet"}, "AMXM": {"APC": "C", "WTC": "M", "RECAT": "--", "Name": "ALENIA AMX"}, "AN12": {"APC": "C", "WTC": "M", "RECAT": "UM", "Name": "An12"}, "AN2": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "AICSA An-2"}, "AN22": {"APC": "C", "WTC": "H", "RECAT": "UH", "Name": "An22 Antheus"}, "AN24": {"APC": "B", "WTC": "M", "RECAT": "LM", "Name": "An24"}, "AN26": {"APC": "B", "WTC": "M", "RECAT": "LM", "Name": "An26"}, "AN28": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "An28"}, "AN30": {"APC": "B", "WTC": "M", "RECAT": "LM", "Name": "An-30"}, "AN32": {"APC": "B", "WTC": "M", "RECAT": "LM", "Name": "An-32,Firekiller (Sutlej)"}, "AN38": {"APC": "B", "WTC": "M", "RECAT": "L", "Name": "An-38"}, "AN70": {"APC": "C", "WTC": "M", "RECAT": "LH", "Name": "An-70"}, "AN72": {"APC": "B", "WTC": "M", "RECAT": "LM", "Name": "An-72/74"}, "AS32": {"APC": "A", "WTC": "M", "RECAT": "L", "Name": "Super Puma"}, "ASTR": {"APC": "B", "WTC": "M", "RECAT": "L", "Name": "Gulfstream G100"}, "AT43": {"APC": "B", "WTC": "M", "RECAT": "LM", "Name": "ALENIA ATR-42-300/320"}, "AT44": {"APC": "B", "WTC": "M", "RECAT": "LM", "Name": "ATR-42-400"}, "AT45": {"APC": "B", "WTC": "M", "RECAT": "LM", "Name": "ALENIA ATR-42-500"}, "AT72": {"APC": "B", "WTC": "M", "RECAT": "LM", "Name": "ALENIA ATR-72"}, "AT75": {"APC": "B", "WTC": "M", "RECAT": "LM", "Name": "ATR-72-500"}, "ATLA": {"APC": "C", "WTC": "M", "RECAT": "UM", "Name": "1150 Atlantic"}, "ATP": {"APC": "B", "WTC": "M", "RECAT": "LM", "Name": "ATP"}, "B06": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "Bell JetRanger"}, "B1": {"APC": "D", "WTC": "H", "RECAT": "LH", "Name": "B-1 Lancer"}, "B190": {"APC": "B", "WTC": "M", "RECAT": "L", "Name": "1900 (C-12J)"}, "B2": {"APC": "C", "WTC": "H", "RECAT": "S", "Name": "B-2 Spirit"}, "B230": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "Bell 230"}, "B350": {"APC": "B", "WTC": "L", "RECAT": "L", "Name": "B300 Super King Air 350"}, "B37M": {"APC": "C", "WTC": "M", "RECAT": "UM", "Name": "BOEING 737 MAX 7"}, "B38M": {"APC": "D", "WTC": "M", "RECAT": "UM", "Name": "BOEING 737 MAX 8"}, "B39M": {"APC": "D", "WTC": "M", "RECAT": "UM", "Name": "BOEING 737 MAX 9"}, "B3XM": {"APC": "D", "WTC": "M", "RECAT": "UM", "Name": "BOEING 737 MAX 10"}, "B412": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "Agusta-Bell 412 Grifone"}, "B430": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "Bell 430"}, "B461": {"APC": "C", "WTC": "M", "RECAT": "LM", "Name": "BAe-146-100"}, "B462": {"APC": "C", "WTC": "M", "RECAT": "LM", "Name": "BAe-146-200"}, "B463": {"APC": "C", "WTC": "M", "RECAT": "LM", "Name": "BAe-146-300"}, "B52": {"APC": "E", "WTC": "H", "RECAT": "S", "Name": "B-52 Stratofortress"}, "B701": {"APC": "C", "WTC": "M", "RECAT": "UM", "Name": "707-100"}, "B703": {"APC": "C", "WTC": "H", "RECAT": "LH", "Name": "707-300"}, "B712": {"APC": "C", "WTC": "M", "RECAT": "LM", "Name": "717-200"}, "B720": {"APC": "C", "WTC": "M", "RECAT": "LH", "Name": "BOEING 720"}, "B722": {"APC": "C", "WTC": "M", "RECAT": "UM", "Name": "727-200"}, "B731": {"APC": "C", "WTC": "M", "RECAT": "LM", "Name": "737-100"}, "B732": {"APC": "C", "WTC": "M", "RECAT": "LM", "Name": "737-200"}, "B733": {"APC": "C", "WTC": "M", "RECAT": "LM", "Name": "737-300"}, "B734": {"APC": "C", "WTC": "M", "RECAT": "LM", "Name": "737-400"}, "B735": {"APC": "C", "WTC": "M", "RECAT": "LM", "Name": "737-500"}, "B736": {"APC": "C", "WTC": "M", "RECAT": "UM", "Name": "737-600"}, "B737": {"APC": "C", "WTC": "M", "RECAT": "UM", "Name": "737-700"}, "B738": {"APC": "D", "WTC": "M", "RECAT": "UM", "Name": "737-800"}, "B739": {"APC": "D", "WTC": "M", "RECAT": "UM", "Name": "737-900"}, "B741": {"APC": "D", "WTC": "H", "RECAT": "UH", "Name": "747-100"}, "B742": {"APC": "D", "WTC": "H", "RECAT": "UH", "Name": "747-200"}, "B743": {"APC": "D", "WTC": "H", "RECAT": "UH", "Name": "747-300"}, "B744": {"APC": "D", "WTC": "H", "RECAT": "UH", "Name": "747-400"}, "B748": {"APC": "D", "WTC": "H", "RECAT": "UH", "Name": "Boeing 747-8"}, "B74D": {"APC": "D", "WTC": "H", "RECAT": "UH", "Name": "BOEING 747-400 Domestic"}, "B74R": {"APC": "D", "WTC": "H", "RECAT": "UH", "Name": "747SR"}, "B74S": {"APC": "C", "WTC": "H", "RECAT": "UH", "Name": "747SP"}, "B752": {"APC": "C", "WTC": "M", "RECAT": "LH", "Name": "757-200"}, "B753": {"APC": "D", "WTC": "M", "RECAT": "LH", "Name": "757-300"}, "B762": {"APC": "C", "WTC": "H", "RECAT": "LH", "Name": "767-200ER"}, "B763": {"APC": "C", "WTC": "H", "RECAT": "LH", "Name": "767-300ER"}, "B764": {"APC": "D", "WTC": "H", "RECAT": "LH", "Name": "767-400"}, "B772": {"APC": "C", "WTC": "H", "RECAT": "UH", "Name": "BOEING 777-200"}, "B773": {"APC": "D", "WTC": "H", "RECAT": "UH", "Name": "BOEING 777-300"}, "B77L": {"APC": "C", "WTC": "H", "RECAT": "UH", "Name": "Boeing 777-200LR"}, "B77W": {"APC": "D", "WTC": "H", "RECAT": "UH", "Name": "BOEING 777-300ER"}, "B788": {"APC": "C", "WTC": "H", "RECAT": "UH", "Name": "787-8 Dreamliner"}, "BA11": {"APC": "C", "WTC": "M", "RECAT": "LM", "Name": "BAC 1-11"}, "BCS1": {"APC": "C", "WTC": "M", "RECAT": "LM", "Name": "Airbus A220-100"}, "BCS3": {"APC": "C", "WTC": "M", "RECAT": "LM", "Name": "AIRBUS A-220-300"}, "BDOG": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "Bulldog"}, "BE10": {"APC": "B", "WTC": "L", "RECAT": "L", "Name": "100 King Air"}, "BE20": {"APC": "B", "WTC": "L", "RECAT": "L", "Name": "King Air 200"}, "BE23": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "23 Musketeer,Sundowner"}, "BE33": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "33 Debonair,Bonanza (E-24)"}, "BE36": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "36 Bonanza (piston)"}, "BE40": {"APC": "B", "WTC": "M", "RECAT": "L", "Name": "Beechjet 400"}, "BE50": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "50 Twin Bonanza"}, "BE55": {"APC": "B", "WTC": "L", "RECAT": "L", "Name": "55 Baron"}, "BE58": {"APC": "B", "WTC": "L", "RECAT": "L", "Name": "58 Baron"}, "BE60": {"APC": "B", "WTC": "L", "RECAT": "L", "Name": "60 Duke"}, "BE70": {"APC": "B", "WTC": "L", "RECAT": "L", "Name": "70 Queen Air"}, "BE76": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "76 Duchess"}, "BE80": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "80 Queen Air"}, "BE95": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "Beech 95 Travel Air"}, "BE99": {"APC": "B", "WTC": "L", "RECAT": "L", "Name": "99 Airliner"}, "BE9L": {"APC": "B", "WTC": "L", "RECAT": "L", "Name": "King Air 90"}, "BER4": {"APC": "D", "WTC": "M", "RECAT": "UM", "Name": "A-4 Albatross"}, "BN2T": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "BN-2T Turbine Islander, Turbine Defender"}, "C06T": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "206 (turbine)"}, "C130": {"APC": "C", "WTC": "M", "RECAT": "UM", "Name": "HERCULES"}, "C135": {"APC": "D", "WTC": "H", "RECAT": "LH", "Name": "C-135 Stratolifter"}, "C141": {"APC": "C", "WTC": "H", "RECAT": "LH", "Name": "C-141 Starlifter"}, "C150": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "150,A150,Commuter,Aerobat"}, "C152": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "152,A152,Aerobat"}, "C160": {"APC": "C", "WTC": "M", "RECAT": "UM", "Name": "C-160"}, "C17": {"APC": "B", "WTC": "H", "RECAT": "LH", "Name": "C-17 Globemaster 3"}, "C172": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "172 Skyhawk"}, "C177": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "177,Cardinal"}, "C182": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "182,Skylane"}, "C2": {"APC": "B", "WTC": "M", "RECAT": "LM", "Name": "C-2 Greyhound"}, "C206": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "206 (CESSNA)"}, "C207": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "207 (Turbo)Skywagon 207"}, "C208": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "208 Caravan 1,(Super)Cargomaster"}, "C210": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "210 Centurion"}, "C212": {"APC": "A", "WTC": "M", "RECAT": "L", "Name": "Aviocar"}, "C25A": {"APC": "B", "WTC": "L", "RECAT": "L", "Name": "525A Citation CJ2"}, "C303": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "AVIONES COLOMBIA T303"}, "C30J": {"APC": "C", "WTC": "M", "RECAT": "UM", "Name": "C-130J Hercules"}, "C310": {"APC": "B", "WTC": "L", "RECAT": "L", "Name": "310,T310 (U-3,L-27)"}, "C337": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "337,M337,MC337,T337B/C/D/E/F/H"}, "C340": {"APC": "B", "WTC": "L", "RECAT": "L", "Name": "340 (CESSNA)"}, "C402": {"APC": "B", "WTC": "L", "RECAT": "L", "Name": "401,402,Utililiner,Businessliner"}, "C404": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "404 Titan"}, "C414": {"APC": "B", "WTC": "L", "RECAT": "L", "Name": "414,Chancellor"}, "C421": {"APC": "B", "WTC": "L", "RECAT": "L", "Name": "421,Executive Commuter"}, "C425": {"APC": "B", "WTC": "L", "RECAT": "L", "Name": "425 Corsair,Conquest 1"}, "C441": {"APC": "B", "WTC": "L", "RECAT": "L", "Name": "441 Conquest,Conquest 2"}, "C5": {"APC": "C", "WTC": "H", "RECAT": "UH", "Name": "C-5 Galaxy (L-500)"}, "C525": {"APC": "B", "WTC": "L", "RECAT": "L", "Name": "525 CitationJet, Citation CJ1"}, "C526": {"APC": "B", "WTC": "L", "RECAT": "L", "Name": "Citation 526"}, "C550": {"APC": "B", "WTC": "L", "RECAT": "L", "Name": "550 Citation 2"}, "C560": {"APC": "B", "WTC": "M", "RECAT": "L", "Name": "560 Citation 5 Ultra Encore"}, "C56X": {"APC": "B", "WTC": "M", "RECAT": "L", "Name": "560XL Citation Excel"}, "C650": {"APC": "C", "WTC": "M", "RECAT": "L", "Name": "650 Citation 3/6/7"}, "C680": {"APC": "C", "WTC": "M", "RECAT": "L", "Name": "Citation Sovereign"}, "C750": {"APC": "C", "WTC": "M", "RECAT": "LM", "Name": "750 Citation 10"}, "C82R": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "AVIONES COLOMBIA R182"}, "CL2T": {"APC": "B", "WTC": "M", "RECAT": "LM", "Name": "CANADAIR CL-415 SuperScooper"}, "CL30": {"APC": "C", "WTC": "M", "RECAT": "LM", "Name": "BD-100 Challenger 300"}, "CL35": {"APC": "C", "WTC": "M", "RECAT": "LM", "Name": "BD-100 Challenger 350"}, "CL60": {"APC": "C", "WTC": "M", "RECAT": "LM", "Name": "Canadair Challenger "}, "CN35": {"APC": "B", "WTC": "M", "RECAT": "LM", "Name": "AIRTECH CN-235 MP Persuader"}, "CONC": {"APC": "E", "WTC": "H", "RECAT": "--", "Name": "Concorde"}, "CP23": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "CAP-230/231/232"}, "CRJ1": {"APC": "C", "WTC": "M", "RECAT": "LM", "Name": "CANADAIR RJ-100 Regional Jet"}, "CRJ2": {"APC": "C", "WTC": "M", "RECAT": "LM", "Name": "CANADAIR RJ-200 Regional Jet"}, "CRJ7": {"APC": "C", "WTC": "M", "RECAT": "LM", "Name": "CANADAIR RJ-700 Regional Jet"}, "CRJ9": {"APC": "C", "WTC": "M", "RECAT": "LM", "Name": "CRJ Series CRJ900"}, "CRJX": {"APC": "C", "WTC": "M", "RECAT": "LM", "Name": "CRJ 1000"}, "D228": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "228 (DORNIER)"}, "D28D": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "Do28 Skyservant"}, "D328": {"APC": "B", "WTC": "M", "RECAT": "L", "Name": "328 (DORNIER)"}, "DA40": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "Diamond"}, "DA42": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "Diamond Twinstar"}, "DA50": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "SuperStar/Magnum"}, "DC10": {"APC": "D", "WTC": "H", "RECAT": "LH", "Name": "DC-10"}, "DC85": {"APC": "C", "WTC": "H", "RECAT": "LH", "Name": "DC-8-50"}, "DC86": {"APC": "C", "WTC": "H", "RECAT": "LH", "Name": "DC-8-60"}, "DC87": {"APC": "D", "WTC": "H", "RECAT": "LH", "Name": "DC-8-70"}, "DC91": {"APC": "C", "WTC": "M", "RECAT": "LM", "Name": "DC9-10 , DC9-15"}, "DC92": {"APC": "C", "WTC": "M", "RECAT": "LM", "Name": "DC9-20"}, "DC93": {"APC": "C", "WTC": "M", "RECAT": "LM", "Name": "DC-9-30"}, "DC94": {"APC": "C", "WTC": "M", "RECAT": "LM", "Name": "DC9-40"}, "DC95": {"APC": "C", "WTC": "M", "RECAT": "LM", "Name": "DC-9-50"}, "DH8A": {"APC": "B", "WTC": "M", "RECAT": "LM", "Name": "CC-142"}, "DH8C": {"APC": "B", "WTC": "M", "RECAT": "LM", "Name": "Dash 8 Q300"}, "DH8D": {"APC": "C", "WTC": "M", "RECAT": "LM", "Name": "Dash 8 Q400"}, "DHC6": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "CC-138"}, "DHC7": {"APC": "A", "WTC": "M", "RECAT": "LM", "Name": "Dash 7"}, "DR40": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "Cadet"}, "E110": {"APC": "B", "WTC": "L", "RECAT": "L", "Name": "Bandeirante"}, "E120": {"APC": "B", "WTC": "M", "RECAT": "L", "Name": "Brasilia"}, "E121": {"APC": "B", "WTC": "L", "RECAT": "L", "Name": "EC-9"}, "E135": {"APC": "C", "WTC": "M", "RECAT": "LM", "Name": "EMBRAER ERJ-135"}, "E145": {"APC": "C", "WTC": "M", "RECAT": "LM", "Name": "EMB-145"}, "E170": {"APC": "C", "WTC": "M", "RECAT": "LM", "Name": "Embraer 170"}, "E190": {"APC": "C", "WTC": "M", "RECAT": "LM", "Name": "Embraer 190"}, "E195": {"APC": "C", "WTC": "M", "RECAT": "LM", "Name": "Embraer 195"}, "E2": {"APC": "B", "WTC": "M", "RECAT": "LM", "Name": "Daya"}, "E3CF": {"APC": "D", "WTC": "H", "RECAT": "LH", "Name": "E-3D Sentry"}, "E3TF": {"APC": "D", "WTC": "H", "RECAT": "LH", "Name": "E-3 Sentry"}, "E50P": {"APC": "B", "WTC": "L", "RECAT": "L", "Name": "Embraer 500 Phenom 100"}, "E55P": {"APC": "B", "WTC": "M", "RECAT": "L", "Name": "Embraer 505 Phenom 300"}, "EC35": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "EUROCOPTER EC-135"}, "EH10": {"APC": "A", "WTC": "M", "RECAT": "L", "Name": "AW101 Merlin"}, "ETAR": {"APC": "B", "WTC": "M", "RECAT": "L", "Name": "DASSAULT Etendard 4"}, "EUFI": {"APC": "D", "WTC": "M", "RECAT": "LM", "Name": "Eurofighter Typhoon"}, "F1": {"APC": "D", "WTC": "M", "RECAT": "L", "Name": "Mitsubishi F-1"}, "F100": {"APC": "C", "WTC": "M", "RECAT": "LM", "Name": "100 (FOKKER)"}, "F104": {"APC": "E", "WTC": "M", "RECAT": "L", "Name": "AERITALIA F-104 Starfighter"}, "F117": {"APC": "E", "WTC": "M", "RECAT": "LM", "Name": "F-117 Nighthawk"}, "F14": {"APC": "C", "WTC": "M", "RECAT": "LM", "Name": "F-14 Tomcat"}, "F15": {"APC": "C", "WTC": "M", "RECAT": "LM", "Name": "F-15 Strike Eagle"}, "F16": {"APC": "D", "WTC": "M", "RECAT": "L", "Name": "F-16 Fighting Falcon"}, "F18": {"APC": "C", "WTC": "M", "RECAT": "LM", "Name": "F-18 Hornet"}, "F2": {"APC": "D", "WTC": "M", "RECAT": "LM", "Name": "F-2"}, "F26T": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "AERMACCHI SF-260TP"}, "F27": {"APC": "B", "WTC": "M", "RECAT": "LM", "Name": "F-27 Friendship"}, "F28": {"APC": "C", "WTC": "M", "RECAT": "LM", "Name": "F-28 Fellowship"}, "F2TH": {"APC": "B", "WTC": "M", "RECAT": "LM", "Name": "DASSAULT Falcon 2000"}, "F35": {"APC": "D", "WTC": "M", "RECAT": "LM", "Name": "F-35 Lightning II"}, "F4": {"APC": "E", "WTC": "M", "RECAT": "LM", "Name": "F-4 Phantom 2"}, "F406": {"APC": "B", "WTC": "L", "RECAT": "L", "Name": "Caravan 2"}, "F5": {"APC": "E", "WTC": "M", "RECAT": "L", "Name": "A-9"}, "F50": {"APC": "B", "WTC": "M", "RECAT": "LM", "Name": "FOKKER 50,Maritime Enforcer"}, "F70": {"APC": "B", "WTC": "M", "RECAT": "LM", "Name": "70 (FOKKER)"}, "F900": {"APC": "B", "WTC": "M", "RECAT": "LM", "Name": "DASSAULT-BREGUET Falcon 900"}, "FA10": {"APC": "B", "WTC": "M", "RECAT": "L", "Name": "Falcon 10/100"}, "FA20": {"APC": "B", "WTC": "M", "RECAT": "L", "Name": "DASSAULT-BREGUET Falcon 20/200"}, "FA50": {"APC": "C", "WTC": "M", "RECAT": "LM", "Name": "DASSAULT-BREGUET T-16"}, "FA7X": {"APC": "B", "WTC": "M", "RECAT": "LM", "Name": "Falcon 7X"}, "G115": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "Bavarian"}, "G150": {"APC": "C", "WTC": "M", "RECAT": "L", "Name": "Gulfstream 150"}, "G222": {"APC": "B", "WTC": "M", "RECAT": "LM", "Name": "AERITALIA G-222"}, "G280": {"APC": "C", "WTC": "M", "RECAT": "--", "Name": "Gulfstream G280"}, "G3": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "Mirage G3"}, "GALX": {"APC": "C", "WTC": "M", "RECAT": "LM", "Name": "Gulfstream G200"}, "GL5T": {"APC": "C", "WTC": "M", "RECAT": "LM", "Name": "BD-700 Global 5000"}, "GLEX": {"APC": "C", "WTC": "M", "RECAT": "LM", "Name": "Global Express"}, "GLF3": {"APC": "C", "WTC": "M", "RECAT": "LM", "Name": "G-1159A Gulfstream 3"}, "GLF4": {"APC": "C", "WTC": "M", "RECAT": "LM", "Name": "Gulfstream 4"}, "GLF5": {"APC": "C", "WTC": "M", "RECAT": "LM", "Name": "Gulfstream 5"}, "H25A": {"APC": "C", "WTC": "M", "RECAT": "L", "Name": "HS125"}, "H25B": {"APC": "C", "WTC": "M", "RECAT": "L", "Name": "Hawker 750 / 850 / 900"}, "H25C": {"APC": "C", "WTC": "M", "RECAT": "L", "Name": "BAe-125-1000"}, "H47": {"APC": "A", "WTC": "M", "RECAT": "LM", "Name": "Chinook CH-47F"}, "H60": {"APC": "A", "WTC": "M", "RECAT": "L", "Name": "Sikorsky S-70A"}, "H64": {"APC": "A", "WTC": "M", "RECAT": "L", "Name": "AH-64 Apache Longbow"}, "H66": {"APC": "A", "WTC": "M", "RECAT": "--", "Name": "RAH-66 Comanche"}, "HAR": {"APC": "C", "WTC": "M", "RECAT": "L", "Name": "AV-8 Harrier"}, "HAWK": {"APC": "C", "WTC": "M", "RECAT": "L", "Name": "T-45 Goshawk"}, "IL18": {"APC": "C", "WTC": "M", "RECAT": "UM", "Name": "Il-18/20/22/24"}, "IL62": {"APC": "D", "WTC": "H", "RECAT": "LH", "Name": "Il-62"}, "IL76": {"APC": "B", "WTC": "H", "RECAT": "LH", "Name": "Candid"}, "IL86": {"APC": "D", "WTC": "H", "RECAT": "LH", "Name": "Il-86/87"}, "IL96": {"APC": "D", "WTC": "H", "RECAT": "UH", "Name": "Il-96"}, "J328": {"APC": "B", "WTC": "M", "RECAT": "LM", "Name": "328JET"}, "JAGR": {"APC": "D", "WTC": "M", "RECAT": "LM", "Name": "British Aerospace Jaguar"}, "JS1": {"APC": "B", "WTC": "L", "RECAT": "L", "Name": "Jetstream 1"}, "JS20": {"APC": "B", "WTC": "M", "RECAT": "L", "Name": "Jetstream 2 "}, "JS3": {"APC": "B", "WTC": "M", "RECAT": "L", "Name": "Jetstream 3"}, "JS31": {"APC": "B", "WTC": "M", "RECAT": "L", "Name": "Jetstream 31"}, "JS32": {"APC": "B", "WTC": "M", "RECAT": "L", "Name": "Jetstream 32"}, "JS41": {"APC": "B", "WTC": "M", "RECAT": "L", "Name": "Jetstream 41"}, "K35E": {"APC": "C", "WTC": "H", "RECAT": "LH", "Name": "KC-135 Stratotanker"}, "K35R": {"APC": "C", "WTC": "H", "RECAT": "LH", "Name": "KC-135 Stratotanker"}, "KA50": {"APC": "A", "WTC": "M", "RECAT": "L", "Name": "Kamov KA-50 Black Shark"}, "KA52": {"APC": "A", "WTC": "M", "RECAT": "L", "Name": "Kamov KA-52 Alligator"}, "L101": {"APC": "C", "WTC": "H", "RECAT": "LH", "Name": "L-1011 TriStar"}, "L159": {"APC": "C", "WTC": "M", "RECAT": "L", "Name": "AERO (2) L-159"}, "L188": {"APC": "C", "WTC": "M", "RECAT": "LM", "Name": "Electra"}, "L29B": {"APC": "C", "WTC": "M", "RECAT": "LM", "Name": "Jetstar 2/731"}, "L39": {"APC": "C", "WTC": "L", "RECAT": "L", "Name": "AERO (2) L-39/139 Albatross"}, "L410": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "AYRES L-410/420 Turbolet"}, "L610": {"APC": "B", "WTC": "M", "RECAT": "L", "Name": "700 (AYRES)"}, "LJ25": {"APC": "C", "WTC": "L", "RECAT": "L", "Name": "25 (LEARJET)"}, "LJ31": {"APC": "B", "WTC": "M", "RECAT": "L", "Name": "31 (LEARJET)"}, "LJ35": {"APC": "C", "WTC": "M", "RECAT": "L", "Name": "35,36 (LEARJET)"}, "LJ40": {"APC": "B", "WTC": "M", "RECAT": "L", "Name": "Learjet 40"}, "LJ45": {"APC": "C", "WTC": "M", "RECAT": "L", "Name": "45 (LEARJET)"}, "LJ55": {"APC": "C", "WTC": "M", "RECAT": "L", "Name": "LEARJET 55"}, "LJ60": {"APC": "C", "WTC": "M", "RECAT": "L", "Name": "60 (LEARJET)"}, "M18": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "Dromader"}, "M20P": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "MOONEY"}, "M20T": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "Bravo (M-20K)"}, "M339": {"APC": "B", "WTC": "L", "RECAT": "L", "Name": "AERMACCHI MB-339"}, "MD11": {"APC": "D", "WTC": "H", "RECAT": "LH", "Name": "MD-11"}, "MD81": {"APC": "C", "WTC": "M", "RECAT": "UM", "Name": "MD-81"}, "MD82": {"APC": "C", "WTC": "M", "RECAT": "UM", "Name": "MD-82"}, "MD83": {"APC": "C", "WTC": "M", "RECAT": "UM", "Name": "MD-83"}, "MD87": {"APC": "C", "WTC": "M", "RECAT": "UM", "Name": "MD-87"}, "MD88": {"APC": "C", "WTC": "M", "RECAT": "UM", "Name": "MD-88"}, "MD90": {"APC": "C", "WTC": "M", "RECAT": "UM", "Name": "BOEING MD-90"}, "MG21": {"APC": "E", "WTC": "M", "RECAT": "L", "Name": "FISHBED"}, "MG23": {"APC": "D", "WTC": "M", "RECAT": "LM", "Name": "MiG-23/27"}, "MG25": {"APC": "C", "WTC": "M", "RECAT": "LM", "Name": "MiG-25 "}, "MG29": {"APC": "C", "WTC": "M", "RECAT": "LM", "Name": "MiG-29/33"}, "MG31": {"APC": "E", "WTC": "M", "RECAT": "LM", "Name": "MAPO-MIG MiG-31"}, "MI2": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "Mil Mi-2 Hoplite"}, "MI8": {"APC": "A", "WTC": "M", "RECAT": "L", "Name": "Mil Mi-8 Hip"}, "MIR2": {"APC": "C", "WTC": "M", "RECAT": "LM", "Name": "Mirage 2000"}, "MRF1": {"APC": "C", "WTC": "M", "RECAT": "L", "Name": "DASSAULT-BREGUET Mirage F1"}, "MU2": {"APC": "B", "WTC": "L", "RECAT": "L", "Name": "LR-1"}, "N262": {"APC": "A", "WTC": "M", "RECAT": "L", "Name": "FRAKES Mohawk 298"}, "NH90": {"APC": "A", "WTC": "M", "RECAT": "L", "Name": "NH90"}, "NIM": {"APC": "D", "WTC": "M", "RECAT": "UM", "Name": "Nimrod"}, "P180": {"APC": "B", "WTC": "L", "RECAT": "L", "Name": "Avanti"}, "P28A": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "PA-28-140/161 Archer,Cherokee"}, "P28R": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "AICSA PA-28R Cherokee Arrow,Turbo Arrow 3"}, "P28T": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "PA-28RT Turbo Arrow 4"}, "P3": {"APC": "C", "WTC": "M", "RECAT": "LM", "Name": "Orion"}, "P32R": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "PA-32R Lance,Turbo Saratoga SP"}, "P46T": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "Malibu Meridian"}, "P808": {"APC": "B", "WTC": "M", "RECAT": "--", "Name": "PD-808"}, "PA18": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "L-18C"}, "PA23": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "Apache"}, "PA27": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "Aztec"}, "PA31": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "Chieftain"}, "PA32": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "Cherokee Six"}, "PA34": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "Seneca"}, "PA38": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "AICSA PA-38 Tomahawk"}, "PA44": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "AICSA PA-44 Seminole"}, "PA46": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "Malibu"}, "PAY2": {"APC": "B", "WTC": "L", "RECAT": "L", "Name": "Cheyenne 2"}, "PAY3": {"APC": "B", "WTC": "L", "RECAT": "L", "Name": "Cheyenne 3"}, "PAY4": {"APC": "B", "WTC": "L", "RECAT": "L", "Name": "Cheyenne 400"}, "PC12": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "PC-12"}, "PC6T": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "Chiricahua"}, "PC7": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "Astra (PC-7)"}, "PC9": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "BEECH PD-373 Beech, PC-9"}, "PRM1": {"APC": "B", "WTC": "L", "RECAT": "L", "Name": "390 Premier 1"}, "PZ04": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "Gelatik"}, "R135": {"APC": "D", "WTC": "H", "RECAT": "LH", "Name": "RC-135"}, "R44": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "Robinson R44"}, "RALL": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "Commodore"}, "RJ1H": {"APC": "C", "WTC": "M", "RECAT": "LM", "Name": "AVRO RJ-100 Avroliner"}, "RJ70": {"APC": "C", "WTC": "M", "RECAT": "LM", "Name": "AVRO RJ-70 Avroliner"}, "RJ85": {"APC": "C", "WTC": "M", "RECAT": "LM", "Name": "AVRO RJ-85 Avroliner"}, "S601": {"APC": "B", "WTC": "L", "RECAT": "L", "Name": "AEROSPATIALE SN-601 Corvette"}, "S61": {"APC": "A", "WTC": "M", "RECAT": "L", "Name": "Sea King S-61"}, "S76": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "Sikorsky S-76"}, "SB05": {"APC": "B", "WTC": "L", "RECAT": "L", "Name": "105 (Sk60)"}, "SB20": {"APC": "B", "WTC": "M", "RECAT": "LM", "Name": "2000 (SAAB)"}, "SB32": {"APC": "C", "WTC": "M", "RECAT": "L", "Name": "Saab 32 Lansen"}, "SB37": {"APC": "B", "WTC": "M", "RECAT": "LM", "Name": "37 Viggen"}, "SB39": {"APC": "B", "WTC": "M", "RECAT": "L", "Name": "39 Gripen"}, "SBR2": {"APC": "C", "WTC": "M", "RECAT": "L", "Name": "NA-265 Sabre 75"}, "SC7": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "SC-7 Skyvan,Skyliner"}, "SF34": {"APC": "B", "WTC": "M", "RECAT": "L", "Name": "340 (SAAB)"}, "SH33": {"APC": "B", "WTC": "M", "RECAT": "L", "Name": "C-23"}, "SH36": {"APC": "B", "WTC": "M", "RECAT": "L", "Name": "SD3-360"}, "SR20": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "Cirrus SR20"}, "SR22": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "Cirrus SR22"}, "SU17": {"APC": "C", "WTC": "M", "RECAT": "LM", "Name": "Su-17/20/22"}, "SU24": {"APC": "D", "WTC": "M", "RECAT": "LM", "Name": "Su-24"}, "SU25": {"APC": "E", "WTC": "M", "RECAT": "LM", "Name": "Su-25"}, "SU27": {"APC": "C", "WTC": "M", "RECAT": "LM", "Name": "J-11"}, "SU95": {"APC": "C", "WTC": "M", "RECAT": "LM", "Name": "Superjet 100"}, "SW2": {"APC": "B", "WTC": "L", "RECAT": "L", "Name": "Merlin II"}, "SW3": {"APC": "B", "WTC": "L", "RECAT": "L", "Name": "FAIRCHILD (1) SA-227TT Merlin 3,Fairchild 300"}, "SW4": {"APC": "B", "WTC": "M", "RECAT": "L", "Name": "Metro 23"}, "T134": {"APC": "D", "WTC": "M", "RECAT": "LM", "Name": "Tu-134"}, "T154": {"APC": "C", "WTC": "M", "RECAT": "UM", "Name": "Tu-154"}, "T204": {"APC": "C", "WTC": "M", "RECAT": "UM", "Name": "Tu-204/214/224/234"}, "T22M": {"APC": "E", "WTC": "M", "RECAT": "LH", "Name": "Tu-22M"}, "T37": {"APC": "B", "WTC": "L", "RECAT": "L", "Name": "318A/B/C (CESSNA)"}, "T38": {"APC": "D", "WTC": "L", "RECAT": "L", "Name": "AT-38 Talon"}, "TAMP": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "SOCATA TB-9 Tampico, Sprint"}, "TB30": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "AEROSPATIALE TB-30 Epsilon"}, "TBM7": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "SOCATA TBM-700"}, "TBM8": {"APC": "B", "WTC": "L", "RECAT": "L", "Name": "DAHER TBM-850"}, "TOBA": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "SOCATA TB-10/200 Tobago"}, "TOR": {"APC": "D", "WTC": "M", "RECAT": "LM", "Name": "PANAVIA Tornado"}, "TRIN": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "Pashosh"}, "TUCA": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "A-27"}, "UH1": {"APC": "A", "WTC": "L", "RECAT": "L", "Name": "Bell UH-1 Iroquois (Huey)"}, "VC10": {"APC": "D", "WTC": "H", "RECAT": "LH", "Name": "BAC VC-10"}, "YK40": {"APC": "B", "WTC": "M", "RECAT": "LM", "Name": "Yak-40"}, "YK42": {"APC": "C", "WTC": "M", "RECAT": "UM", "Name": "Yak-42/142"}}
+{
+  "A10": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "A10 Thunderbolt 2"
+  },
+  "A109": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "AW109 Power"
+  },
+  "A124": {
+    "APC": "C",
+    "WTC": "H",
+    "RECAT": "SH",
+    "Name": "An124 Ruslan"
+  },
+  "A129": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "Mangusta"
+  },
+  "A19N": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "UM",
+    "Name": "A319neo"
+  },
+  "A20N": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "UM",
+    "Name": "A320neo"
+  },
+  "A21N": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "UM",
+    "Name": "A321neo"
+  },
+  "A225": {
+    "APC": "C",
+    "WTC": "J",
+    "RECAT": "S",
+    "Name": "An225 Mriya"
+  },
+  "A306": {
+    "APC": "C",
+    "WTC": "H",
+    "RECAT": "LH",
+    "Name": "A-300-600"
+  },
+  "A30B": {
+    "APC": "C",
+    "WTC": "H",
+    "RECAT": "LH",
+    "Name": "A300"
+  },
+  "A310": {
+    "APC": "C",
+    "WTC": "H",
+    "RECAT": "LH",
+    "Name": "A-310"
+  },
+  "A318": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "UM",
+    "Name": "A318"
+  },
+  "A319": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "UM",
+    "Name": "A319"
+  },
+  "A320": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "UM",
+    "Name": "A320"
+  },
+  "A321": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "UM",
+    "Name": "A321"
+  },
+  "A332": {
+    "APC": "C",
+    "WTC": "H",
+    "RECAT": "UH",
+    "Name": "A330-200"
+  },
+  "A333": {
+    "APC": "C",
+    "WTC": "H",
+    "RECAT": "UH",
+    "Name": "A330-300"
+  },
+  "A338": {
+    "APC": "C",
+    "WTC": "H",
+    "RECAT": "UH",
+    "Name": "A330-800"
+  },
+  "A339": {
+    "APC": "D",
+    "WTC": "H",
+    "RECAT": "UH",
+    "Name": "A330-900"
+  },
+  "A342": {
+    "APC": "D",
+    "WTC": "H",
+    "RECAT": "UH",
+    "Name": "A340-200"
+  },
+  "A343": {
+    "APC": "D",
+    "WTC": "H",
+    "RECAT": "UH",
+    "Name": "A340-300"
+  },
+  "A345": {
+    "APC": "D",
+    "WTC": "H",
+    "RECAT": "UH",
+    "Name": "A340-500"
+  },
+  "A346": {
+    "APC": "D",
+    "WTC": "H",
+    "RECAT": "UH",
+    "Name": "A340-600"
+  },
+  "A359": {
+    "APC": "C",
+    "WTC": "H",
+    "RECAT": "UH",
+    "Name": "A350-900 XWB"
+  },
+  "A35K": {
+    "APC": "D",
+    "WTC": "H",
+    "RECAT": "UH",
+    "Name": "A350-1000 XWB"
+  },
+  "A388": {
+    "APC": "C",
+    "WTC": "J",
+    "RECAT": "SH",
+    "Name": "A-380-800"
+  },
+  "A3ST": {
+    "APC": "C",
+    "WTC": "H",
+    "RECAT": "LH",
+    "Name": "A300ST Beluga"
+  },
+  "A4": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "L",
+    "Name": "Skyhawk"
+  },
+  "A400": {
+    "APC": "C",
+    "WTC": "H",
+    "RECAT": "LH",
+    "Name": "A-400M Atlas"
+  },
+  "A6": {
+    "APC": "B",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "A6 Intruder,Prowler"
+  },
+  "A748": {
+    "APC": "B",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "748"
+  },
+  "AC11": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "112 Commander 112"
+  },
+  "AC50": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "500 Commander 500"
+  },
+  "AC56": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "560 Commander 560"
+  },
+  "AC68": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "680F Commander 680F"
+  },
+  "AC6L": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "680FL Grand Commander"
+  },
+  "AC95": {
+    "APC": "B",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "695 Jetprop Commander 980/1000"
+  },
+  "AEST": {
+    "APC": "B",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "600,601 (AEROSTAR)"
+  },
+  "AJET": {
+    "APC": "B",
+    "WTC": "M",
+    "RECAT": "L",
+    "Name": "Alpha Jet"
+  },
+  "AMXM": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "--",
+    "Name": "ALENIA AMX"
+  },
+  "AN12": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "UM",
+    "Name": "An12"
+  },
+  "AN2": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "AICSA An-2"
+  },
+  "AN22": {
+    "APC": "C",
+    "WTC": "H",
+    "RECAT": "UH",
+    "Name": "An22 Antheus"
+  },
+  "AN24": {
+    "APC": "B",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "An24"
+  },
+  "AN26": {
+    "APC": "B",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "An26"
+  },
+  "AN28": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "An28"
+  },
+  "AN30": {
+    "APC": "B",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "An-30"
+  },
+  "AN32": {
+    "APC": "B",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "An-32,Firekiller (Sutlej)"
+  },
+  "AN38": {
+    "APC": "B",
+    "WTC": "M",
+    "RECAT": "L",
+    "Name": "An-38"
+  },
+  "AN70": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "LH",
+    "Name": "An-70"
+  },
+  "AN72": {
+    "APC": "B",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "An-72/74"
+  },
+  "AS32": {
+    "APC": "A",
+    "WTC": "M",
+    "RECAT": "L",
+    "Name": "Super Puma"
+  },
+  "ASTR": {
+    "APC": "B",
+    "WTC": "M",
+    "RECAT": "L",
+    "Name": "Gulfstream G100"
+  },
+  "AT43": {
+    "APC": "B",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "ALENIA ATR-42-300/320"
+  },
+  "AT44": {
+    "APC": "B",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "ATR-42-400"
+  },
+  "AT45": {
+    "APC": "B",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "ALENIA ATR-42-500"
+  },
+  "AT72": {
+    "APC": "B",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "ALENIA ATR-72"
+  },
+  "AT75": {
+    "APC": "B",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "ATR-72-500"
+  },
+  "ATLA": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "UM",
+    "Name": "1150 Atlantic"
+  },
+  "ATP": {
+    "APC": "B",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "ATP"
+  },
+  "B06": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "Bell JetRanger"
+  },
+  "B1": {
+    "APC": "D",
+    "WTC": "H",
+    "RECAT": "LH",
+    "Name": "B-1 Lancer"
+  },
+  "B190": {
+    "APC": "B",
+    "WTC": "M",
+    "RECAT": "L",
+    "Name": "1900 (C-12J)"
+  },
+  "B2": {
+    "APC": "C",
+    "WTC": "H",
+    "RECAT": "S",
+    "Name": "B-2 Spirit"
+  },
+  "B230": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "Bell 230"
+  },
+  "B350": {
+    "APC": "B",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "B300 Super King Air 350"
+  },
+  "B37M": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "UM",
+    "Name": "BOEING 737 MAX 7"
+  },
+  "B38M": {
+    "APC": "D",
+    "WTC": "M",
+    "RECAT": "UM",
+    "Name": "BOEING 737 MAX 8"
+  },
+  "B39M": {
+    "APC": "D",
+    "WTC": "M",
+    "RECAT": "UM",
+    "Name": "BOEING 737 MAX 9"
+  },
+  "B3XM": {
+    "APC": "D",
+    "WTC": "M",
+    "RECAT": "UM",
+    "Name": "BOEING 737 MAX 10"
+  },
+  "B412": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "Agusta-Bell 412 Grifone"
+  },
+  "B430": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "Bell 430"
+  },
+  "B461": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "BAe-146-100"
+  },
+  "B462": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "BAe-146-200"
+  },
+  "B463": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "BAe-146-300"
+  },
+  "B52": {
+    "APC": "E",
+    "WTC": "H",
+    "RECAT": "S",
+    "Name": "B-52 Stratofortress"
+  },
+  "B701": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "UM",
+    "Name": "707-100"
+  },
+  "B703": {
+    "APC": "C",
+    "WTC": "H",
+    "RECAT": "LH",
+    "Name": "707-300"
+  },
+  "B712": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "717-200"
+  },
+  "B720": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "LH",
+    "Name": "BOEING 720"
+  },
+  "B722": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "UM",
+    "Name": "727-200"
+  },
+  "B731": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "737-100"
+  },
+  "B732": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "737-200"
+  },
+  "B733": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "737-300"
+  },
+  "B734": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "737-400"
+  },
+  "B735": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "737-500"
+  },
+  "B736": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "UM",
+    "Name": "737-600"
+  },
+  "B737": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "UM",
+    "Name": "737-700"
+  },
+  "B738": {
+    "APC": "D",
+    "WTC": "M",
+    "RECAT": "UM",
+    "Name": "737-800"
+  },
+  "B739": {
+    "APC": "D",
+    "WTC": "M",
+    "RECAT": "UM",
+    "Name": "737-900"
+  },
+  "B741": {
+    "APC": "D",
+    "WTC": "H",
+    "RECAT": "UH",
+    "Name": "747-100"
+  },
+  "B742": {
+    "APC": "D",
+    "WTC": "H",
+    "RECAT": "UH",
+    "Name": "747-200"
+  },
+  "B743": {
+    "APC": "D",
+    "WTC": "H",
+    "RECAT": "UH",
+    "Name": "747-300"
+  },
+  "B744": {
+    "APC": "D",
+    "WTC": "H",
+    "RECAT": "UH",
+    "Name": "747-400"
+  },
+  "B748": {
+    "APC": "D",
+    "WTC": "H",
+    "RECAT": "UH",
+    "Name": "Boeing 747-8"
+  },
+  "B74D": {
+    "APC": "D",
+    "WTC": "H",
+    "RECAT": "UH",
+    "Name": "BOEING 747-400 Domestic"
+  },
+  "B74R": {
+    "APC": "D",
+    "WTC": "H",
+    "RECAT": "UH",
+    "Name": "747SR"
+  },
+  "B74S": {
+    "APC": "C",
+    "WTC": "H",
+    "RECAT": "UH",
+    "Name": "747SP"
+  },
+  "B752": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "LH",
+    "Name": "757-200"
+  },
+  "B753": {
+    "APC": "D",
+    "WTC": "M",
+    "RECAT": "LH",
+    "Name": "757-300"
+  },
+  "B762": {
+    "APC": "C",
+    "WTC": "H",
+    "RECAT": "LH",
+    "Name": "767-200ER"
+  },
+  "B763": {
+    "APC": "C",
+    "WTC": "H",
+    "RECAT": "LH",
+    "Name": "767-300ER"
+  },
+  "B764": {
+    "APC": "D",
+    "WTC": "H",
+    "RECAT": "LH",
+    "Name": "767-400"
+  },
+  "B772": {
+    "APC": "C",
+    "WTC": "H",
+    "RECAT": "UH",
+    "Name": "BOEING 777-200"
+  },
+  "B773": {
+    "APC": "D",
+    "WTC": "H",
+    "RECAT": "UH",
+    "Name": "BOEING 777-300"
+  },
+  "B77L": {
+    "APC": "C",
+    "WTC": "H",
+    "RECAT": "UH",
+    "Name": "Boeing 777-200LR"
+  },
+  "B77W": {
+    "APC": "D",
+    "WTC": "H",
+    "RECAT": "UH",
+    "Name": "BOEING 777-300ER"
+  },
+  "B788": {
+    "APC": "C",
+    "WTC": "H",
+    "RECAT": "UH",
+    "Name": "787-8 Dreamliner"
+  },
+  "BA11": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "BAC 1-11"
+  },
+  "BCS1": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "Airbus A220-100"
+  },
+  "BCS3": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "AIRBUS A-220-300"
+  },
+  "BDOG": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "Bulldog"
+  },
+  "BE10": {
+    "APC": "B",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "100 King Air"
+  },
+  "BE20": {
+    "APC": "B",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "King Air 200"
+  },
+  "BE23": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "23 Musketeer,Sundowner"
+  },
+  "BE33": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "33 Debonair,Bonanza (E-24)"
+  },
+  "BE36": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "36 Bonanza (piston)"
+  },
+  "BE40": {
+    "APC": "B",
+    "WTC": "M",
+    "RECAT": "L",
+    "Name": "Beechjet 400"
+  },
+  "BE50": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "50 Twin Bonanza"
+  },
+  "BE55": {
+    "APC": "B",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "55 Baron"
+  },
+  "BE58": {
+    "APC": "B",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "58 Baron"
+  },
+  "BE60": {
+    "APC": "B",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "60 Duke"
+  },
+  "BE70": {
+    "APC": "B",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "70 Queen Air"
+  },
+  "BE76": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "76 Duchess"
+  },
+  "BE80": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "80 Queen Air"
+  },
+  "BE95": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "Beech 95 Travel Air"
+  },
+  "BE99": {
+    "APC": "B",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "99 Airliner"
+  },
+  "BE9L": {
+    "APC": "B",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "King Air 90"
+  },
+  "BER4": {
+    "APC": "D",
+    "WTC": "M",
+    "RECAT": "UM",
+    "Name": "A-4 Albatross"
+  },
+  "BN2T": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "BN-2T Turbine Islander, Turbine Defender"
+  },
+  "C06T": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "206 (turbine)"
+  },
+  "C130": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "UM",
+    "Name": "HERCULES"
+  },
+  "C135": {
+    "APC": "D",
+    "WTC": "H",
+    "RECAT": "LH",
+    "Name": "C-135 Stratolifter"
+  },
+  "C141": {
+    "APC": "C",
+    "WTC": "H",
+    "RECAT": "LH",
+    "Name": "C-141 Starlifter"
+  },
+  "C150": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "150,A150,Commuter,Aerobat"
+  },
+  "C152": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "152,A152,Aerobat"
+  },
+  "C160": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "UM",
+    "Name": "C-160"
+  },
+  "C17": {
+    "APC": "B",
+    "WTC": "H",
+    "RECAT": "LH",
+    "Name": "C-17 Globemaster 3"
+  },
+  "C172": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "172 Skyhawk"
+  },
+  "C177": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "177,Cardinal"
+  },
+  "C182": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "182,Skylane"
+  },
+  "C2": {
+    "APC": "B",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "C-2 Greyhound"
+  },
+  "C206": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "206 (CESSNA)"
+  },
+  "C207": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "207 (Turbo)Skywagon 207"
+  },
+  "C208": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "208 Caravan 1,(Super)Cargomaster"
+  },
+  "C210": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "210 Centurion"
+  },
+  "C212": {
+    "APC": "A",
+    "WTC": "M",
+    "RECAT": "L",
+    "Name": "Aviocar"
+  },
+  "C25A": {
+    "APC": "B",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "525A Citation CJ2"
+  },
+  "C303": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "AVIONES COLOMBIA T303"
+  },
+  "C30J": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "UM",
+    "Name": "C-130J Hercules"
+  },
+  "C310": {
+    "APC": "B",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "310,T310 (U-3,L-27)"
+  },
+  "C337": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "337,M337,MC337,T337B/C/D/E/F/H"
+  },
+  "C340": {
+    "APC": "B",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "340 (CESSNA)"
+  },
+  "C402": {
+    "APC": "B",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "401,402,Utililiner,Businessliner"
+  },
+  "C404": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "404 Titan"
+  },
+  "C414": {
+    "APC": "B",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "414,Chancellor"
+  },
+  "C421": {
+    "APC": "B",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "421,Executive Commuter"
+  },
+  "C425": {
+    "APC": "B",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "425 Corsair,Conquest 1"
+  },
+  "C441": {
+    "APC": "B",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "441 Conquest,Conquest 2"
+  },
+  "C5": {
+    "APC": "C",
+    "WTC": "H",
+    "RECAT": "UH",
+    "Name": "C-5 Galaxy (L-500)"
+  },
+  "C525": {
+    "APC": "B",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "525 CitationJet, Citation CJ1"
+  },
+  "C526": {
+    "APC": "B",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "Citation 526"
+  },
+  "C550": {
+    "APC": "B",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "550 Citation 2"
+  },
+  "C560": {
+    "APC": "B",
+    "WTC": "M",
+    "RECAT": "L",
+    "Name": "560 Citation 5 Ultra Encore"
+  },
+  "C56X": {
+    "APC": "B",
+    "WTC": "M",
+    "RECAT": "L",
+    "Name": "560XL Citation Excel"
+  },
+  "C650": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "L",
+    "Name": "650 Citation 3/6/7"
+  },
+  "C680": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "L",
+    "Name": "Citation Sovereign"
+  },
+  "C750": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "750 Citation 10"
+  },
+  "C82R": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "AVIONES COLOMBIA R182"
+  },
+  "CL2T": {
+    "APC": "B",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "CANADAIR CL-415 SuperScooper"
+  },
+  "CL30": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "BD-100 Challenger 300"
+  },
+  "CL35": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "BD-100 Challenger 350"
+  },
+  "CL60": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "Canadair Challenger "
+  },
+  "CN35": {
+    "APC": "B",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "AIRTECH CN-235 MP Persuader"
+  },
+  "CONC": {
+    "APC": "E",
+    "WTC": "H",
+    "RECAT": "--",
+    "Name": "Concorde"
+  },
+  "CP23": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "CAP-230/231/232"
+  },
+  "CRJ1": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "CANADAIR RJ-100 Regional Jet"
+  },
+  "CRJ2": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "CANADAIR RJ-200 Regional Jet"
+  },
+  "CRJ7": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "CANADAIR RJ-700 Regional Jet"
+  },
+  "CRJ9": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "CRJ Series CRJ900"
+  },
+  "CRJX": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "CRJ 1000"
+  },
+  "D228": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "228 (DORNIER)"
+  },
+  "D28D": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "Do28 Skyservant"
+  },
+  "D328": {
+    "APC": "B",
+    "WTC": "M",
+    "RECAT": "L",
+    "Name": "328 (DORNIER)"
+  },
+  "DA40": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "Diamond"
+  },
+  "DA42": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "Diamond Twinstar"
+  },
+  "DA50": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "SuperStar/Magnum"
+  },
+  "DC10": {
+    "APC": "D",
+    "WTC": "H",
+    "RECAT": "LH",
+    "Name": "DC-10"
+  },
+  "DC85": {
+    "APC": "C",
+    "WTC": "H",
+    "RECAT": "LH",
+    "Name": "DC-8-50"
+  },
+  "DC86": {
+    "APC": "C",
+    "WTC": "H",
+    "RECAT": "LH",
+    "Name": "DC-8-60"
+  },
+  "DC87": {
+    "APC": "D",
+    "WTC": "H",
+    "RECAT": "LH",
+    "Name": "DC-8-70"
+  },
+  "DC91": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "DC9-10 , DC9-15"
+  },
+  "DC92": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "DC9-20"
+  },
+  "DC93": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "DC-9-30"
+  },
+  "DC94": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "DC9-40"
+  },
+  "DC95": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "DC-9-50"
+  },
+  "DH8A": {
+    "APC": "B",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "CC-142"
+  },
+  "DH8C": {
+    "APC": "B",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "Dash 8 Q300"
+  },
+  "DH8D": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "Dash 8 Q400"
+  },
+  "DHC6": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "CC-138"
+  },
+  "DHC7": {
+    "APC": "A",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "Dash 7"
+  },
+  "DR40": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "Cadet"
+  },
+  "E110": {
+    "APC": "B",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "Bandeirante"
+  },
+  "E120": {
+    "APC": "B",
+    "WTC": "M",
+    "RECAT": "L",
+    "Name": "Brasilia"
+  },
+  "E121": {
+    "APC": "B",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "EC-9"
+  },
+  "E135": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "EMBRAER ERJ-135"
+  },
+  "E145": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "EMB-145"
+  },
+  "E170": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "Embraer 170"
+  },
+  "E190": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "Embraer 190"
+  },
+  "E195": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "Embraer 195"
+  },
+  "E2": {
+    "APC": "B",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "Daya"
+  },
+  "E3CF": {
+    "APC": "D",
+    "WTC": "H",
+    "RECAT": "LH",
+    "Name": "E-3D Sentry"
+  },
+  "E3TF": {
+    "APC": "D",
+    "WTC": "H",
+    "RECAT": "LH",
+    "Name": "E-3 Sentry"
+  },
+  "E50P": {
+    "APC": "B",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "Embraer 500 Phenom 100"
+  },
+  "E55P": {
+    "APC": "B",
+    "WTC": "M",
+    "RECAT": "L",
+    "Name": "Embraer 505 Phenom 300"
+  },
+  "EC35": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "EUROCOPTER EC-135"
+  },
+  "EH10": {
+    "APC": "A",
+    "WTC": "M",
+    "RECAT": "L",
+    "Name": "AW101 Merlin"
+  },
+  "ETAR": {
+    "APC": "B",
+    "WTC": "M",
+    "RECAT": "L",
+    "Name": "DASSAULT Etendard 4"
+  },
+  "EUFI": {
+    "APC": "D",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "Eurofighter Typhoon"
+  },
+  "F1": {
+    "APC": "D",
+    "WTC": "M",
+    "RECAT": "L",
+    "Name": "Mitsubishi F-1"
+  },
+  "F100": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "100 (FOKKER)"
+  },
+  "F104": {
+    "APC": "E",
+    "WTC": "M",
+    "RECAT": "L",
+    "Name": "AERITALIA F-104 Starfighter"
+  },
+  "F117": {
+    "APC": "E",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "F-117 Nighthawk"
+  },
+  "F14": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "F-14 Tomcat"
+  },
+  "F15": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "F-15 Strike Eagle"
+  },
+  "F16": {
+    "APC": "D",
+    "WTC": "M",
+    "RECAT": "L",
+    "Name": "F-16 Fighting Falcon"
+  },
+  "F18": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "F-18 Hornet"
+  },
+  "F2": {
+    "APC": "D",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "F-2"
+  },
+  "F26T": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "AERMACCHI SF-260TP"
+  },
+  "F27": {
+    "APC": "B",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "F-27 Friendship"
+  },
+  "F28": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "F-28 Fellowship"
+  },
+  "F2TH": {
+    "APC": "B",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "DASSAULT Falcon 2000"
+  },
+  "F35": {
+    "APC": "D",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "F-35 Lightning II"
+  },
+  "F4": {
+    "APC": "E",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "F-4 Phantom 2"
+  },
+  "F406": {
+    "APC": "B",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "Caravan 2"
+  },
+  "F5": {
+    "APC": "E",
+    "WTC": "M",
+    "RECAT": "L",
+    "Name": "A-9"
+  },
+  "F50": {
+    "APC": "B",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "FOKKER 50,Maritime Enforcer"
+  },
+  "F70": {
+    "APC": "B",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "70 (FOKKER)"
+  },
+  "F900": {
+    "APC": "B",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "DASSAULT-BREGUET Falcon 900"
+  },
+  "FA10": {
+    "APC": "B",
+    "WTC": "M",
+    "RECAT": "L",
+    "Name": "Falcon 10/100"
+  },
+  "FA20": {
+    "APC": "B",
+    "WTC": "M",
+    "RECAT": "L",
+    "Name": "DASSAULT-BREGUET Falcon 20/200"
+  },
+  "FA50": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "DASSAULT-BREGUET T-16"
+  },
+  "FA7X": {
+    "APC": "B",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "Falcon 7X"
+  },
+  "G115": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "Bavarian"
+  },
+  "G150": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "L",
+    "Name": "Gulfstream 150"
+  },
+  "G222": {
+    "APC": "B",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "AERITALIA G-222"
+  },
+  "G280": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "--",
+    "Name": "Gulfstream G280"
+  },
+  "G3": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "Mirage G3"
+  },
+  "GALX": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "Gulfstream G200"
+  },
+  "GL5T": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "BD-700 Global 5000"
+  },
+  "GLEX": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "Global Express"
+  },
+  "GLF3": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "G-1159A Gulfstream 3"
+  },
+  "GLF4": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "Gulfstream 4"
+  },
+  "GLF5": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "Gulfstream 5"
+  },
+  "H25A": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "L",
+    "Name": "HS125"
+  },
+  "H25B": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "L",
+    "Name": "Hawker 750 / 850 / 900"
+  },
+  "H25C": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "L",
+    "Name": "BAe-125-1000"
+  },
+  "H47": {
+    "APC": "A",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "Chinook CH-47F"
+  },
+  "H60": {
+    "APC": "A",
+    "WTC": "M",
+    "RECAT": "L",
+    "Name": "Sikorsky S-70A"
+  },
+  "H64": {
+    "APC": "A",
+    "WTC": "M",
+    "RECAT": "L",
+    "Name": "AH-64 Apache Longbow"
+  },
+  "H66": {
+    "APC": "A",
+    "WTC": "M",
+    "RECAT": "--",
+    "Name": "RAH-66 Comanche"
+  },
+  "HAR": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "L",
+    "Name": "AV-8 Harrier"
+  },
+  "HAWK": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "L",
+    "Name": "T-45 Goshawk"
+  },
+  "IL18": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "UM",
+    "Name": "Il-18/20/22/24"
+  },
+  "IL62": {
+    "APC": "D",
+    "WTC": "H",
+    "RECAT": "LH",
+    "Name": "Il-62"
+  },
+  "IL76": {
+    "APC": "B",
+    "WTC": "H",
+    "RECAT": "LH",
+    "Name": "Candid"
+  },
+  "IL86": {
+    "APC": "D",
+    "WTC": "H",
+    "RECAT": "LH",
+    "Name": "Il-86/87"
+  },
+  "IL96": {
+    "APC": "D",
+    "WTC": "H",
+    "RECAT": "UH",
+    "Name": "Il-96"
+  },
+  "J328": {
+    "APC": "B",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "328JET"
+  },
+  "JAGR": {
+    "APC": "D",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "British Aerospace Jaguar"
+  },
+  "JS1": {
+    "APC": "B",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "Jetstream 1"
+  },
+  "JS20": {
+    "APC": "B",
+    "WTC": "M",
+    "RECAT": "L",
+    "Name": "Jetstream 2 "
+  },
+  "JS3": {
+    "APC": "B",
+    "WTC": "M",
+    "RECAT": "L",
+    "Name": "Jetstream 3"
+  },
+  "JS31": {
+    "APC": "B",
+    "WTC": "M",
+    "RECAT": "L",
+    "Name": "Jetstream 31"
+  },
+  "JS32": {
+    "APC": "B",
+    "WTC": "M",
+    "RECAT": "L",
+    "Name": "Jetstream 32"
+  },
+  "JS41": {
+    "APC": "B",
+    "WTC": "M",
+    "RECAT": "L",
+    "Name": "Jetstream 41"
+  },
+  "K35E": {
+    "APC": "C",
+    "WTC": "H",
+    "RECAT": "LH",
+    "Name": "KC-135 Stratotanker"
+  },
+  "K35R": {
+    "APC": "C",
+    "WTC": "H",
+    "RECAT": "LH",
+    "Name": "KC-135 Stratotanker"
+  },
+  "KA50": {
+    "APC": "A",
+    "WTC": "M",
+    "RECAT": "L",
+    "Name": "Kamov KA-50 Black Shark"
+  },
+  "KA52": {
+    "APC": "A",
+    "WTC": "M",
+    "RECAT": "L",
+    "Name": "Kamov KA-52 Alligator"
+  },
+  "L101": {
+    "APC": "C",
+    "WTC": "H",
+    "RECAT": "LH",
+    "Name": "L-1011 TriStar"
+  },
+  "L159": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "L",
+    "Name": "AERO (2) L-159"
+  },
+  "L188": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "Electra"
+  },
+  "L29B": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "Jetstar 2/731"
+  },
+  "L39": {
+    "APC": "C",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "AERO (2) L-39/139 Albatross"
+  },
+  "L410": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "AYRES L-410/420 Turbolet"
+  },
+  "L610": {
+    "APC": "B",
+    "WTC": "M",
+    "RECAT": "L",
+    "Name": "700 (AYRES)"
+  },
+  "LJ25": {
+    "APC": "C",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "25 (LEARJET)"
+  },
+  "LJ31": {
+    "APC": "B",
+    "WTC": "M",
+    "RECAT": "L",
+    "Name": "31 (LEARJET)"
+  },
+  "LJ35": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "L",
+    "Name": "35,36 (LEARJET)"
+  },
+  "LJ40": {
+    "APC": "B",
+    "WTC": "M",
+    "RECAT": "L",
+    "Name": "Learjet 40"
+  },
+  "LJ45": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "L",
+    "Name": "45 (LEARJET)"
+  },
+  "LJ55": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "L",
+    "Name": "LEARJET 55"
+  },
+  "LJ60": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "L",
+    "Name": "60 (LEARJET)"
+  },
+  "M18": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "Dromader"
+  },
+  "M20P": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "MOONEY"
+  },
+  "M20T": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "Bravo (M-20K)"
+  },
+  "M339": {
+    "APC": "B",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "AERMACCHI MB-339"
+  },
+  "MD11": {
+    "APC": "D",
+    "WTC": "H",
+    "RECAT": "LH",
+    "Name": "MD-11"
+  },
+  "MD81": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "UM",
+    "Name": "MD-81"
+  },
+  "MD82": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "UM",
+    "Name": "MD-82"
+  },
+  "MD83": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "UM",
+    "Name": "MD-83"
+  },
+  "MD87": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "UM",
+    "Name": "MD-87"
+  },
+  "MD88": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "UM",
+    "Name": "MD-88"
+  },
+  "MD90": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "UM",
+    "Name": "BOEING MD-90"
+  },
+  "MG21": {
+    "APC": "E",
+    "WTC": "M",
+    "RECAT": "L",
+    "Name": "FISHBED"
+  },
+  "MG23": {
+    "APC": "D",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "MiG-23/27"
+  },
+  "MG25": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "MiG-25 "
+  },
+  "MG29": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "MiG-29/33"
+  },
+  "MG31": {
+    "APC": "E",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "MAPO-MIG MiG-31"
+  },
+  "MI2": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "Mil Mi-2 Hoplite"
+  },
+  "MI8": {
+    "APC": "A",
+    "WTC": "M",
+    "RECAT": "L",
+    "Name": "Mil Mi-8 Hip"
+  },
+  "MIR2": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "Mirage 2000"
+  },
+  "MRF1": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "L",
+    "Name": "DASSAULT-BREGUET Mirage F1"
+  },
+  "MU2": {
+    "APC": "B",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "LR-1"
+  },
+  "N262": {
+    "APC": "A",
+    "WTC": "M",
+    "RECAT": "L",
+    "Name": "FRAKES Mohawk 298"
+  },
+  "NH90": {
+    "APC": "A",
+    "WTC": "M",
+    "RECAT": "L",
+    "Name": "NH90"
+  },
+  "NIM": {
+    "APC": "D",
+    "WTC": "M",
+    "RECAT": "UM",
+    "Name": "Nimrod"
+  },
+  "P180": {
+    "APC": "B",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "Avanti"
+  },
+  "P28A": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "PA-28-140/161 Archer,Cherokee"
+  },
+  "P28R": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "AICSA PA-28R Cherokee Arrow,Turbo Arrow 3"
+  },
+  "P28T": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "PA-28RT Turbo Arrow 4"
+  },
+  "P3": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "Orion"
+  },
+  "P32R": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "PA-32R Lance,Turbo Saratoga SP"
+  },
+  "P46T": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "Malibu Meridian"
+  },
+  "P808": {
+    "APC": "B",
+    "WTC": "M",
+    "RECAT": "--",
+    "Name": "PD-808"
+  },
+  "PA18": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "L-18C"
+  },
+  "PA23": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "Apache"
+  },
+  "PA27": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "Aztec"
+  },
+  "PA31": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "Chieftain"
+  },
+  "PA32": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "Cherokee Six"
+  },
+  "PA34": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "Seneca"
+  },
+  "PA38": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "AICSA PA-38 Tomahawk"
+  },
+  "PA44": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "AICSA PA-44 Seminole"
+  },
+  "PA46": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "Malibu"
+  },
+  "PAY2": {
+    "APC": "B",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "Cheyenne 2"
+  },
+  "PAY3": {
+    "APC": "B",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "Cheyenne 3"
+  },
+  "PAY4": {
+    "APC": "B",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "Cheyenne 400"
+  },
+  "PC12": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "PC-12"
+  },
+  "PC6T": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "Chiricahua"
+  },
+  "PC7": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "Astra (PC-7)"
+  },
+  "PC9": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "BEECH PD-373 Beech, PC-9"
+  },
+  "PRM1": {
+    "APC": "B",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "390 Premier 1"
+  },
+  "PZ04": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "Gelatik"
+  },
+  "R135": {
+    "APC": "D",
+    "WTC": "H",
+    "RECAT": "LH",
+    "Name": "RC-135"
+  },
+  "R44": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "Robinson R44"
+  },
+  "RALL": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "Commodore"
+  },
+  "RJ1H": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "AVRO RJ-100 Avroliner"
+  },
+  "RJ70": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "AVRO RJ-70 Avroliner"
+  },
+  "RJ85": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "AVRO RJ-85 Avroliner"
+  },
+  "S601": {
+    "APC": "B",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "AEROSPATIALE SN-601 Corvette"
+  },
+  "S61": {
+    "APC": "A",
+    "WTC": "M",
+    "RECAT": "L",
+    "Name": "Sea King S-61"
+  },
+  "S76": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "Sikorsky S-76"
+  },
+  "SB05": {
+    "APC": "B",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "105 (Sk60)"
+  },
+  "SB20": {
+    "APC": "B",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "2000 (SAAB)"
+  },
+  "SB32": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "L",
+    "Name": "Saab 32 Lansen"
+  },
+  "SB37": {
+    "APC": "B",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "37 Viggen"
+  },
+  "SB39": {
+    "APC": "B",
+    "WTC": "M",
+    "RECAT": "L",
+    "Name": "39 Gripen"
+  },
+  "SBR2": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "L",
+    "Name": "NA-265 Sabre 75"
+  },
+  "SC7": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "SC-7 Skyvan,Skyliner"
+  },
+  "SF34": {
+    "APC": "B",
+    "WTC": "M",
+    "RECAT": "L",
+    "Name": "340 (SAAB)"
+  },
+  "SH33": {
+    "APC": "B",
+    "WTC": "M",
+    "RECAT": "L",
+    "Name": "C-23"
+  },
+  "SH36": {
+    "APC": "B",
+    "WTC": "M",
+    "RECAT": "L",
+    "Name": "SD3-360"
+  },
+  "SR20": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "Cirrus SR20"
+  },
+  "SR22": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "Cirrus SR22"
+  },
+  "SU17": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "Su-17/20/22"
+  },
+  "SU24": {
+    "APC": "D",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "Su-24"
+  },
+  "SU25": {
+    "APC": "E",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "Su-25"
+  },
+  "SU27": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "J-11"
+  },
+  "SU95": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "Superjet 100"
+  },
+  "SW2": {
+    "APC": "B",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "Merlin II"
+  },
+  "SW3": {
+    "APC": "B",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "FAIRCHILD (1) SA-227TT Merlin 3,Fairchild 300"
+  },
+  "SW4": {
+    "APC": "B",
+    "WTC": "M",
+    "RECAT": "L",
+    "Name": "Metro 23"
+  },
+  "T134": {
+    "APC": "D",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "Tu-134"
+  },
+  "T154": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "UM",
+    "Name": "Tu-154"
+  },
+  "T204": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "UM",
+    "Name": "Tu-204/214/224/234"
+  },
+  "T22M": {
+    "APC": "E",
+    "WTC": "M",
+    "RECAT": "LH",
+    "Name": "Tu-22M"
+  },
+  "T37": {
+    "APC": "B",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "318A/B/C (CESSNA)"
+  },
+  "T38": {
+    "APC": "D",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "AT-38 Talon"
+  },
+  "TAMP": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "SOCATA TB-9 Tampico, Sprint"
+  },
+  "TB30": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "AEROSPATIALE TB-30 Epsilon"
+  },
+  "TBM7": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "SOCATA TBM-700"
+  },
+  "TBM8": {
+    "APC": "B",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "DAHER TBM-850"
+  },
+  "TOBA": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "SOCATA TB-10/200 Tobago"
+  },
+  "TOR": {
+    "APC": "D",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "PANAVIA Tornado"
+  },
+  "TRIN": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "Pashosh"
+  },
+  "TUCA": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "A-27"
+  },
+  "UH1": {
+    "APC": "A",
+    "WTC": "L",
+    "RECAT": "L",
+    "Name": "Bell UH-1 Iroquois (Huey)"
+  },
+  "VC10": {
+    "APC": "D",
+    "WTC": "H",
+    "RECAT": "LH",
+    "Name": "BAC VC-10"
+  },
+  "YK40": {
+    "APC": "B",
+    "WTC": "M",
+    "RECAT": "LM",
+    "Name": "Yak-40"
+  },
+  "YK42": {
+    "APC": "C",
+    "WTC": "M",
+    "RECAT": "UM",
+    "Name": "Yak-42/142"
+  }
+}

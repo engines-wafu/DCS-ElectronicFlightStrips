@@ -158,5 +158,165 @@
         ],
         "emer_color": "#f08080",
         "use_recat": false
+    },
+    {
+        "profile_name": "TBILISI TOWER",
+        "sections": [
+            [
+                "Inbox",
+                "31L",
+                "13R"
+            ],
+            [
+                "UG24",
+                "Push",
+                "Departed"
+            ]
+        ],
+        "column_spans": [
+            6,
+            4,
+            5
+        ],
+        "inbox": "Inbox",
+        "categories": {
+            "Arriving": "#ffc069",
+            "Departing": "#69a5ff",
+            "Circuit": "lightgreen"
+        },
+        "flight_rules": {
+            "VFR": "1200",
+            "IFR": "0000"
+        },
+        "services": {
+            "N": [
+                "0000",
+                "0000"
+            ],
+            "BS": [
+                "0050",
+                "0053"
+            ],
+            "TS": [
+                "0054",
+                "0057"
+            ],
+            "DS": [
+                "0060",
+                "0063"
+            ],
+            "RS": [
+                "0064",
+                "0067"
+            ]
+        },
+        "conspicuity_service": "N",
+        "strip_defaults": {
+            "callsign": "XXX",
+            "flight_rules": "VFR",
+            "service": "N",
+            "category": "Arriving",
+            "type": "HAR",
+            "flight_size": 1,
+            "departure_field": "UGTB",
+            "arrival_field": "UGTB",
+            "m1": "00",
+            "hdg": "HXXX",
+            "alt": "AXXX",
+            "spd": "SXXX",
+            "flight_plan": {
+                "route": "",
+                "equipment": "",
+                "altitude": ""
+            }
+        },
+        "use_emer": true,
+        "emer_squawks": [
+            "7500",
+            "7600",
+            "7700"
+        ],
+        "emer_color": "#f08080",
+        "use_recat": false
+    },
+    {
+        "profile_name": "TBILISI RADAR",
+        "sections": [
+            [
+                "Inbox",
+                "31L",
+                "13R"
+            ],
+            [
+                "Tsalka MOA",
+                "Push",
+                "Departed"
+            ]
+        ],
+        "column_spans": [
+            6,
+            4,
+            5
+        ],
+        "inbox": "Inbox",
+        "categories": {
+            "Arriving": "#ffc069",
+            "Departing": "#69a5ff",
+            "Circuit": "lightgreen"
+        },
+        "flight_rules": {
+            "VFR": "1200",
+            "IFR": "0000"
+        },
+        "services": {
+            "N": [
+                "0000",
+                "0000"
+            ],
+            "BS": [
+                "0050",
+                "0053"
+            ],
+            "TS": [
+                "0054",
+                "0057"
+            ],
+            "DS": [
+                "0060",
+                "0063"
+            ],
+            "RS": [
+                "0064",
+                "0067"
+            ]
+        },
+        "conspicuity_service": "N",
+        "strip_defaults": {
+            "callsign": "XXX",
+            "flight_rules": "VFR",
+            "service": "N",
+            "category": "Arriving",
+            "type": "HAR",
+            "flight_size": 1,
+            "departure_field": "UGTB",
+            "arrival_field": "UGTB",
+            "m1": "00",
+            "hdg": "HXXX",
+            "alt": "AXXX",
+            "spd": "SXXX",
+            "flight_plan": {
+                "route": "",
+                "equipment": "",
+                "altitude": ""
+            }
+        },
+        "use_emer": true,
+        "emer_squawks": [
+            "7500",
+            "7600",
+            "7700"
+        ],
+        "emer_color": "#f08080",
+        "use_recat": false
     }
 ]
